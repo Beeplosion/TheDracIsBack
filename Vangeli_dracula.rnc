@@ -1,0 +1,12 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = root
+root = element test{p,chapter}
+p = element p{mixed{date*,time*,q*,location*,person*,cloth*,info*}}
+info = element info{text}
+cloth = element cloth{text}
+person = element person{text}
+location = element location{text}
+chapter = element chapter{p+}
+q = element q{text}
+time = element time{text}
+date = element date{text}
