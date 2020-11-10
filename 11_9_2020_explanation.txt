@@ -51,3 +51,10 @@ Replace: <tech type="medical"> \1 </tech>
 
 Find: (bullet)
 Replace: <tech type="gun"> \1 </tech>
+
+<!--SAO:this i what i modified-->
+Find: (</q>) (1,385 items)
+Replace: 
+
+Find: <q> (1,386 items)
+Replce:
