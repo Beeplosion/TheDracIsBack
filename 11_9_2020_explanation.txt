@@ -1,0 +1,53 @@
+Find: (train ) (40 items)
+Replace: <tech type="train"> \1</tech>
+
+Find: (trains )
+Replace: <tech type="train"> \1</tech>
+
+Find: (carriage ) (18 items)
+Replace: <tech type="carriage"> \1</tech>
+
+Find: (carriages ) (2 items)
+Replace: <tech type="carriage"> \1</tech>
+
+Find: (steamers) (3 items)
+Replace: <tech type="steamer"> \1</tech>
+
+Find: (phonographs?)
+Replace: <tech type="phonograph"> \1</tech>
+
+Find: (telegrams?) (21 items)
+Replace: <tech type="telegram"> \1</tech>
+
+Find: (transfusions?) (9 items)
+Replace: <tech type="blood transfusion"> \1 </tech>
+
+Find: (railways?) (4 items)
+Replace: <tech type="railway"> \1 </tech>
+
+Find: (electric )(3)
+Replace: <tech type="electricity"> \1 </tech>
+
+Find: (typewriters?) (11 items)
+Replace: <tech type="typewriter"> \1 </tech>
+
+Find: ( guns?) (6 items)
+Replace: <tech type="gun"> \1 </tech>
+
+Find: ( muskets?) (1 items)
+Replace: <tech type="gun"> \1 </tech>
+
+Find: ( stamps?)
+Replace: <tech type="stamp"> \1 </tech>
+
+Find: ( engine?) (2 items)
+Replace:
+
+Find: (compass?)
+Replace:
+
+Find:(medicines?)
+Replace: <tech type="medical"> \1 </tech>
+
+Find: (bullet)
+Replace: <tech type="gun"> \1 </tech>
