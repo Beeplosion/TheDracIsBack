@@ -7,17 +7,17 @@
         <p>JONATHAN HARKER’S JOURNAL</p>
         <p>(Kept in shorthand.)</p>
 
-        <p><date>3 May</date>. Bistritz.—Left Munich at <time>8:35 P. M.</time>, on <date>1st May</date>, arriving at Vienna early next
-            morning; should have arrived at <time>6:46</time>, but <tech type="train"> train </tech>was an hour late. Buda-Pesth seems a
+        <p><date>3 May</date>. Bistritz.—Left Munich at <time>8:35 P. M.</time>, on <date>1st May</date>, arriving at <location where="Vienna">Vienna</location> early next
+            morning; should have arrived at <time>6:46</time>, but <tech type="train"> train </tech>was an hour late. <location where="Buda-Pesth">Buda-Pesth</location> seems a
             wonderful place, from the glimpse which I got of it from the <tech type="train"> train </tech>and the little I
             could walk through the streets. I feared to go very far from the station, as we had
             arrived late and would start as near the correct time as possible. The impression I had
             was that we were leaving the West and entering the East; the most western of splendid
-            bridges over <location>the Danube</location>, which is here of noble width and depth, took us among the
+            bridges over <location where="The Danube River">the Danube</location>, which is here of noble width and depth, took us among the
             traditions of Turkish rule.</p>
 
-        <p>We left in pretty good time, and came after nightfall to <location>Klausenburgh</location>. Here I stopped for
-            the night at <location>the Hotel Royale</location>. I had for dinner, or rather supper, a chicken done up
+        <p>We left in pretty good time, and came after nightfall to <location where="Klausenburgh">Klausenburgh</location>. Here I stopped for
+            the night at <location where="The Hotel Royale">the Hotel Royale</location>. I had for dinner, or rather supper, a chicken done up
             some way with red pepper, which was very good but thirsty. (Mem., get recipe for Mina.)
             I asked the waiter, and he said it was called paprika hendl, and that, as it was
             a national dish, I should be able to get it anywhere along the <person>Carpathians</person>. I found my
@@ -48,7 +48,7 @@
 
         <p>I did not sleep well, though my bed was comfortable enough, for I had all sorts of queer
             dreams. There was a dog howling all night under my window, which may have had something
-            to do with it; or it may have been the <person>paprika</person>, for I had to drink up all the water in
+            to do with it; or it may have been the paprika, for I had to drink up all the water in
             my carafe, and was still thirsty. Towards morning I slept and was wakened by the
             continuous knocking at my door, so I guess I must have been sleeping soundly then. I had
             for breakfast more paprika, and a sort of porridge of maize flour which they said was
