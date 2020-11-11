@@ -58,3 +58,83 @@ Replace:
 
 Find: <q> (1,386 items)
 Replce:
+
+Find: Castle of Dracula (2)
+replace: <location>Castle of Dracula</location>
+
+Find castle (12)
+replace: <location>castle</location>
+
+find: Borgo Pass(9)
+replace <location>Borgo Pass</location>
+
+find: Veresti(5)
+replace <location>Veresti</location>
+
+find: Fundu (5)
+replace <location>Fundu</location>
+
+find:  Carpathians(5)
+replace:  <location>Carpathians</location>
+
+find: the Pass(5)
+replace: <location>the Pass</location>
+
+find:Whitby(43)
+replace: <location>Whitby</location>
+
+find:the Dardanelles(2)
+replace:<location>the Dardanelles</location>
+
+find: the Thames
+replace: <location>the Thames </location>
+
+find: the asylum (3)
+replace: <location> the asylum</location>
+
+find: asylum (12)
+replace: <location> asylum</location>
+
+find:<location> the asylum</location> (3)
+replace: the <location> asylum</location>
+
+
+find: Carfax(24)
+replace: <location> Carfax </location>
+
+find: piccadily(22)
+replace: <location>piccadily</location>
+
+find: Bethnal Green(2)
+replace: <loction>Bethnal Green</location>
+
+find: Walworth(2)
+replace: <location>Walworth</location>
+
+find: the Count’s house(3)
+replace: <location. the Count’s house</location>
+
+find: Buda-Pesth University(1)
+replace: <location> Buda-Pesth University</location>
+
+find:churchyard(30)
+replace: <location>churchyard</location>
+
+find: Berkeley Hotel(3)
+replace: <location>Berkeley Hotel</location>
+
+find: Hampstead(2)
+replace:<location> Hampstead</location>
+
+find: Hampstead Hill (2)
+replace:<location> Hampstead Hill</location>
+
+find: Hampstead  Heath(2)
+replace:<location> Hampstead Heath</location>
+
+find: Ring(3)
+replace: <location> Ring</location>
+
+find: Hyde Park Corner(1)
+replace:<location> Hyde Park Corner</location>
+
