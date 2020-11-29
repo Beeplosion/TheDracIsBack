@@ -1,0 +1,16 @@
+h2 {
+    color: blue;
+    background-color:gray;
+    text-align: center;
+}
+table, th , td , tr {
+    border: 1px black;
+}
+
+span {
+    color: red;
+    text-decoration: underline;
+}
+a {
+    background-color: #c7c3c1
+}
