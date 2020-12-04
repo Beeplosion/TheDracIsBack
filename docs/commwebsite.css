@@ -1,4 +1,5 @@
 body {
+    color:white;
     margin: 0;
     background: #222;
     font-family: 'Work Sans', sans-serif;
@@ -106,4 +107,18 @@ nav a:hover::before {
 
 .contact{
     padding-top: 200px;
+}
+
+table, th , td , tr {
+    border: 3px white;
+}
+
+span {
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+h2 {
+    color: cadetblue;
+    text-decoration: underline;
 }
