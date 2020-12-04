@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%
+}
+
+header {
+    background: #55d6aa
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding-right: 70px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 65px;
+    padding-top: 23px;
+    
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+
+nav a:hover {
+color: #000;
+}
+
+nav a::before {
+    content:' ';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  padding-top: 240px;
+
+
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  padding-top: 240px; 
+  padding-left: 20px;
+}
+
+.contact{
+    padding-top: 200px;
+}
