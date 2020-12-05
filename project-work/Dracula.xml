@@ -1,4 +1,5 @@
 <?xml-model href="dracula.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="schematron_drac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <root>
     <title>D R A C U L A</title>
 
@@ -8,8 +9,7 @@
         <p>JONATHAN HARKER’S JOURNAL</p>
         <p>(Kept in shorthand.)</p>
 
-        <p><date>3 May</date>. Bistritz.—Left Munich at <time>8:35 P. M.</time>, on <date>1st
-                May</date>, arriving at <location where="Vienna">Vienna</location> early next
+        <p><date><day month="May">3 </day><Month>May</Month></date>. Bistritz.—Left Munich at <time>8:35 P. M.</time>, on <date><day month="May">1</day>st<Month> May</Month></date>, arriving at <location where="Vienna">Vienna</location> early next
             morning; should have arrived at <time>6:46</time>, but <tech type="train"> train
             </tech>was an hour late. <location where="Buda-Pesth">Buda-Pesth</location> seems a
             wonderful place, from the glimpse which I got of it from the <tech type="train"> train
@@ -123,7 +123,7 @@
         <p>"Your friend,</p>
         <p>
             <char name="dracula">Dracula</char>. </p>
-        <p><date>4 May</date>.—I found that <person>my landlord</person> had got a letter from
+        <p><date><day month="May">4 </day><Month>May</Month></date>.—I found that <person>my landlord</person> had got a letter from
                 <person> the Count</person>, directing him to secure the best place on the coach for
             me; but on making inquiries as to details he seemed somewhat reticent, and pretended
             that he could not understand my German. This could not be true, because up to then he
@@ -145,7 +145,7 @@
             just able to follow her by asking many questions. When I told her that I must go at
             once, and that I was engaged on important business, she asked again:</p>
 
-        <p>Do you know what day it is? I answered that it was <date>the fourth of May</date>. She
+        <p>Do you know what day it is? I answered that it was <date><day month="May">4</day>the fourth of <Month>May</Month></date>. She
             shook her head as she said again:</p>
 
         <p>Oh, yes! I know that! I know that, but do you know what day it is? On my saying that I
@@ -170,7 +170,7 @@
             ghostly traditions of this place, or the crucifix itself, I do not know, but I am not
             feeling nearly as easy in my mind as usual. If this book should ever reach <char
                     name="mina">Mina</char> before I do, let it bring my good-bye. Here
-            comes the coach!<date>5 May</date>. <location>The Castle</location>.—The grey of the
+            comes the coach!<date><day month="May">5 </day><Month>May</Month></date>. <location>The Castle</location>.—The grey of the
             morning has passed, and the sun is high over the distant horizon, which seems jagged,
             whether with trees or hills I know not, for it is so far off that big things and little
             are mixed. I am not sleepy, and, as I am not to be called till I awake, naturally I
@@ -451,7 +451,7 @@
         <heading>CHAPTER II</heading>
 
         <p>JONATHAN HARKER’S JOURNAL—continued</p>
-        <p><date>5 May</date>.—I must have been asleep, for certainly if I had been fully awake I
+        <p><date><day month="May">5 </day><Month>May</Month></date>.—I must have been asleep, for certainly if I had been fully awake I
             must have noticed the approach of such a remarkable place. In the gloom the courtyard
             looked of considerable size, and as several dark ways led from it under great round
             arches, it perhaps seemed bigger than it really is. I have not yet been able to see it
@@ -607,8 +607,8 @@
             bedroom....</p>
 
         <p>I am all in a sea of wonders. I doubt; I fear; I think strange things, which I dare not
-            confess to my own soul. God keep me, if only for the sake of those dear to me!<date>7
-                May</date>.—It is again early morning, but I have rested and enjoyed the last
+            confess to my own soul. God keep me, if only for the sake of those dear to me!<date><day month="May">7</day>
+                <Month>May</Month></date>.—It is again early morning, but I have rested and enjoyed the last
             twenty-four hours. I slept till late in the day, and awoke of my own accord. When I had
             dressed myself I went into the room where we had supped, and found a cold breakfast laid
             out, with coffee kept hot by the pot being placed on the hearth. There was a card on the
@@ -828,7 +828,7 @@
 
         <p>I went into my own room and drew the curtains, but there was little to notice; my window
             opened into the courtyard, all I could see was the warm grey of quickening sky. So I
-            pulled the curtains again, and have written of this day.<date>8 May</date>.—I began to
+            pulled the curtains again, and have written of this day.<date><day month="May">8 </day><Month>May</Month></date>.—I began to
             fear as I wrote in this book that I was getting too diffuse; but now I am glad that I
             went into detail from the first, for there is something so strange about this place and
             all in it that I cannot but feel uneasy. I wish I were safe out of it, or that I had
@@ -985,7 +985,7 @@
 
         <p>It was by this time close on morning, and we went to bed. (Mem., this diary seems
             horribly like the beginning of the Arabian Nights, for everything has to break off at
-            cockcrow—or like the ghost of Hamlet’s father.)<date>12 May</date>.—Let me begin with
+            cockcrow—or like the ghost of Hamlet’s father.)<date><day month="May">12 </day><Month>May</Month></date>.—Let me begin with
             facts—bare, meagre facts, verified by books and figures, and of which there can be no
             doubt. I must not confuse them with experiences which will have to rest on my own
             observation, or my memory of them. Last evening when <person>the Count</person> came
@@ -1139,7 +1139,7 @@
         <p>What manner of man is this, or what manner of creature is it in the semblance of man? I
             feel the dread of this horrible place overpowering me; I am in fear—in awful fear—and
             there is no escape for me; I am encompassed about with terrors that I dare not think
-                of....<date>15 May</date>.—Once more have I seen <person>the Count</person> go out
+                of....<date><day month="May">15 </day><Month>May</Month></date>.—Once more have I seen <person>the Count</person> go out
             in his lizard fashion. He moved downwards in a sidelong way, some hundred feet down, and
             a good deal to the left. He vanished into some hole or window. When his head had
             disappeared, I leaned out to try and see more, but without avail—the distance was too
@@ -1182,7 +1182,7 @@
             blushes, her ill-spelt love-letter, and writing in my diary in shorthand all that has
             happened since I closed it last. It is nineteenth century up-to-date with a vengeance.
             And yet, unless my senses deceive me, the old centuries had, and have, powers of their
-            own which mere modernity cannot kill.Later: the Morning of <date>16 May</date>.—God
+            own which mere modernity cannot kill.Later: the Morning of <date><day month="May">16 </day><Month>May</Month></date>.—God
             preserve my sanity, for to this I am reduced. Safety and the assurance of safety are
             things of the past. Whilst I live on here there is but one thing to hope for, that I may
             not go mad, if, indeed, I be not mad already. If I be sane, then surely it is maddening
@@ -1328,7 +1328,7 @@
             the stairs I found it closed. It had been so forcibly driven against the jamb that part
             of the woodwork was splintered. I could see that the bolt of the lock had not been shot,
             but the door is fastened from the inside. I fear it was no dream, and must act on this
-                surmise.<date>19 May</date>.—I am surely in the toils. Last night <person>the
+                surmise.<date><day month="May">19 </day><Month>May</Month></date>.—I am surely in the toils. Last night <person>the
                 Count</person> asked me in the suavest tones to write three letters, one saying that
             my work here was nearly done, and that I should start for home within a few days,
             another that I was starting on the next morning from the time of the letter, and the
@@ -1347,10 +1347,10 @@
             therefore pretended to fall in with his views, and asked him what dates I should put on
             the letters. He calculated a minute, and then said:—</p>
 
-        <p> The first should be <date>June 12</date>, the second <date>June 19</date>, and the third
-                <date>June 29</date>. </p>
+        <p> The first should be <date><day month="June">12 </day><Month>June</Month></date>, the second <date><day month="June">19 </day><Month>June</Month></date>, and the third
+                <date><day month="June">29 </day><Month>June</Month></date>. </p>
 
-        <p>I know now the span of my life. God help me!<date>28 May</date>.—There is a chance of
+        <p>I know now the span of my life. God help me!<date><day month="May">28 </day><Month>May</Month></date>.—There is a chance of
             escape, or at any rate of being able to send word home. A band of Szgany have come to
             the castle, and are encamped in <location>the courtyard.</location> These
                 <person>Szgany</person> are gipsies; I have notes of them in my book. They are
@@ -1399,7 +1399,7 @@
         <p>So, my friend, you are tired? Get to bed. There is the surest rest. I may not have the
             pleasure to talk to-night, since there are many labours to me; but you will sleep, I
             pray. I passed to my room and went to bed, and, strange to say, slept without dreaming.
-            Despair has its own calms.<date>31 May</date>.—This morning when I woke I thought I
+            Despair has its own calms.<date><day month="May">31 </day><Month>May</Month></date>.—This morning when I woke I thought I
             would provide myself with some paper and envelopes from my bag and keep them in my
             pocket, so that I might write in case I should get an opportunity, but again a surprise,
             again a shock!</p>
@@ -1411,8 +1411,8 @@
             wardrobe where I had placed my clothes.</p>
 
         <p>The suit in which I had travelled was gone, and also my overcoat and rug; I could find no
-            trace of them anywhere. This looked like some new scheme of villainy....<date>17
-                June</date>.—This morning, as I was sitting on the edge of my bed cudgelling my
+            trace of them anywhere. This looked like some new scheme of villainy....<date><day month="June">17</day>
+                <Month>June</Month></date>.—This morning, as I was sitting on the edge of my bed cudgelling my
             brains, I heard without a cracking of whips and pounding and scraping of horses’ feet up
             the rocky path beyond the courtyard. With joy I hurried to the window, and saw drive
             into the yard two great leiter-wagons, each drawn by eight sturdy horses, and at the
@@ -1431,7 +1431,7 @@
             When they were all unloaded and packed in a great heap in one corner of the yard,
                 <person>the Slovaks</person> were given some money by the Szgany, and spitting on it
             for luck, lazily went each to his horse’s head. Shortly afterwards, I heard the cracking
-            of their whips die away in the distance.<date>24 June</date>, before morning.—Last night
+            of their whips die away in the distance.<date><day month="June">24 </day><Month>June</Month></date>, before morning.—Last night
             the Count left me early, and locked himself into his own room. As soon as I dared I ran
             up the winding stair, and looked out of the window, which opened south. I thought I
             would watch for <person>the Count</person>, for there is something going on. <person>The
@@ -1508,7 +1508,7 @@
             dead.</p>
 
         <p>What shall I do? what can I do? How can I escape from this dreadful thing of night and
-            gloom and fear?<date>25 June</date>, morning.—No man knows till he has suffered from the
+            gloom and fear?<date><day month="June">25 </day><Month>June</Month></date>, morning.—No man knows till he has suffered from the
             night how sweet and how dear to his heart and eye the morning can be. When the sun grew
             so high this morning that it struck the top of the great gateway opposite my window, the
             high spot which it touched seemed to me as if the dove from the ark had lighted there.
@@ -1587,7 +1587,7 @@
             and in them, dead though they were, such a look of hate, though unconscious of me or my
             presence, that I fled from the place, and leaving <person>the Count</person>’s room by
             the window, crawled again up the castle wall. Regaining my room, I threw myself panting
-            upon the bed and tried to think....<date>29 June</date>.—To-day is the date of my last
+            upon the bed and tried to think....<date><day month="June">29 </day><Month>June</Month></date>.—To-day is the date of my last
             letter, and <person>the Count</person> has taken steps to prove that it was genuine, for
             again I saw him leave the castle by the same window, and in my clothes. As he went down
             the wall, lizard fashion, I wished I had a<tech type="gun"> gun </tech> or some lethal
@@ -1672,7 +1672,7 @@
             As I appeared they all joined in a horrible laugh, and ran away.</p>
 
         <p>I came back to my room and threw myself on my knees. It is then so near the end?
-            To-morrow! to-morrow! Lord, help me, and those to whom I am dear!<date>30 June</date>,
+            To-morrow! to-morrow! Lord, help me, and those to whom I am dear!<date><day month="June">30 </day><Month>June</Month></date>,
             morning.—These may be the last words I ever write in this diary. I slept till just
             before the dawn, and when I woke threw myself on my knees, for I determined that if
             Death came he should find me ready.</p>
@@ -1778,7 +1778,7 @@
         <p>Letter from Miss <char name="mina">Mina</char> Murray to Miss <char name="lucy">Lucy
                 Westenra</char>.</p>
 
-        <p>"<date>9 May</date>.</p>
+        <p>"<date><day month="May">9 </day><Month>May</Month></date>.</p>
         <p>"My dearest <char name="lucy">Lucy</char>,—</p>
         <p>"Forgive my long delay in writing, but I have been simply overwhelmed with work. The life
             of an assistant schoolmistress is sometimes trying. I am longing to be with you, and by
@@ -1858,7 +1858,7 @@
         <p> L. </p>
         <p>Letter, <char name="lucy">Lucy Westenra</char> to <char name="mina">Mina</char>
             Murray.</p>
-        <p>"<date>24 May</date>.</p>
+        <p>"<date><day month="May">24 </day><Month>May</Month></date>.</p>
         <p>"My dearest <char name="mina">Mina</char>,—</p>
         <p>"Thanks, and thanks, and thanks again for your sweet letter. It was so nice to be able to
             tell you and to have your sympathy.</p>
@@ -2007,7 +2007,7 @@
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
         <p>(Kept in <tech type="phonograph"> phonograph</tech>)</p>
-        <p><date>25 May</date>.—Ebb tide in appetite to-day. Cannot eat, cannot rest, so diary
+        <p><date><day month="May">25 </day><Month>May</Month></date>.—Ebb tide in appetite to-day. Cannot eat, cannot rest, so diary
             instead. Since my rebuff of yesterday I have a sort of empty feeling; nothing in the
             world seems of sufficient importance to be worth the doing.... As I knew that the only
             cure for this sort of thing was work, I went down amongst the patients. I picked out one
@@ -2038,7 +2038,7 @@
         <p>Letter, <char name="morris">Quincey P. Morris</char> to Hon. <char name="holmwood">Arthur
                 Holmwood</char>.</p>
 
-        <p>"<date>25 May</date>.</p>
+        <p>"<date><day month="May">25 </day><Month>May</Month></date>.</p>
         <p>"My dear Art,—</p>
         <p>"We’ve told yarns by the camp-fire in the prairies; and dressed one another’s wounds
             after trying a landing at the Marquesas; and drunk healths on the shore of Titicaca.
@@ -2059,7 +2059,7 @@
         <p>Telegram from <char name="holmwood">Arthur Holmwood</char> to <char name="morris">Quincey
                 P. Morris</char>.</p>
 
-        <p>"<date>26 May</date>.</p>
+        <p>"<date><day month="May">26 </day><Month>May</Month></date>.</p>
         <p>"Count me in every time. I bear messages which will make both your ears tingle.</p>
 
         <p> Art. </p>
@@ -2069,7 +2069,7 @@
         <heading>CHAPTER VI</heading>
 
         <p>MINA MURRAY’S JOURNAL</p>
-        <p><date>24 July</date>. <location>Whitby</location>.—<char name="lucy">Lucy</char> met me
+        <p><date><day month="July">24 </day><Month>July</Month></date>. <location>Whitby</location>.—<char name="lucy">Lucy</char> met me
             at the station, looking sweeter and lovelier than ever, and we drove up to the house at
             the Crescent in which they have rooms. This is a lovely place. The little river, the
             Esk, runs through a deep valley, which broadens out as it comes near the harbour. A
@@ -2136,7 +2136,7 @@
             slope is so gentle that a horse could easily walk up and down them. I think they must
             originally have had something to do with the abbey. I shall go home too. <char
                 name="lucy">Lucy</char> went out visiting with her mother, and as they were only
-            duty calls, I did not go. They will be home by this.<date>1 August</date>.—I came up
+            duty calls, I did not go. They will be home by this.<date><day month="August">1 </day><Month>August</Month></date>.—I came up
             here an hour ago with <char name="lucy">Lucy</char>, and we had a most interesting talk
             with my old friend and the two others who always come and join him. He is evidently the
             Sir Oracle of them, and I should think must have been in his time a most dictatorial
@@ -2269,7 +2269,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>5 June</date>.—The case of <char name="renfield">Renfield</char> grows more
+        <p><date><day month="June">5 </day><Month>June</Month></date>.—The case of <char name="renfield">Renfield</char> grows more
             interesting the more I get to understand the man. He has certain qualities very largely
             developed; selfishness, secrecy, and purpose. I wish I could get at what is the object
             of the latter. He seems to have some settled scheme of his own, but what it is I do not
@@ -2282,7 +2282,7 @@
             would do. I must watch him.18 June.—He has turned his mind now to spiders, and has got
             several very big fellows in a box. He keeps feeding them with his flies, and the number
             of the latter is becoming sensibly diminished, although he has used half his food in
-            attracting more flies from outside to his room.<date>1 July</date>.—His spiders are now
+            attracting more flies from outside to his room.<date><day month="July">1 </day><Month>July</Month></date>.—His spiders are now
             becoming as great a nuisance as his flies, and to-day I told him that he must get rid of
             them. He looked very sad at this, so I said that he must clear out some of them, at all
             events. He cheerfully acquiesced in this, and I gave him the same time as before for
@@ -2295,15 +2295,15 @@
             evidently some deep problem in his mind, for he keeps a little note-book in which he is
             always jotting down something. Whole pages of it are filled with masses of figures,
             generally single numbers added up in batches, and then the totals added in batches
-            again, as though he were focussing some account, as the auditors put it.<date>8
-                July</date>.—There is a method in his madness, and the rudimentary idea in my mind
+            again, as though he were focussing some account, as the auditors put it.<date><day month="July">8</day>
+                <Month>July</Month></date>.—There is a method in his madness, and the rudimentary idea in my mind
             is growing. It will be a whole idea soon, and then, oh, unconscious cerebration! you
             will have to give the wall to your conscious brother. I kept away from my friend for a
             few days, so that I might notice if there were any change. Things remain as they were
             except that he has parted with some of his pets and got a new one. He has managed to get
             a sparrow, and has already partially tamed it. His means of taming is simple, for
             already the spiders have diminished. Those that do remain, however, are well fed, for he
-            still brings in the flies by tempting them with his food.<date>19 July</date>.—We are
+            still brings in the flies by tempting them with his food.<date><day month="July">19 </day><Month>July</Month></date>.—We are
             progressing. My friend has now a whole colony of sparrows, and his flies and spiders are
             almost obliterated. When I came in he ran to me and said he wanted to ask me a great
             favour—a very, very great favour; and as he spoke he fawned on me like a dog. I asked
@@ -2326,7 +2326,7 @@
             himself on his knees before me and implored me to let him have a cat; that his salvation
             depended upon it. I was firm, however, and told him that he could not have it, whereupon
             he went without a word, and sat down, gnawing his fingers, in the corner where I had
-            found him. I shall see him in the morning early.<date>20 July</date>.—Visited <char
+            found him. I shall see him in the morning early.<date><day month="July">20 </day><Month>July</Month></date>.—Visited <char
                 name="renfield">Renfield</char> very early, before the attendant went his rounds.
             Found him up and humming a tune. He was spreading out his sugar, which he had saved, in
             the window, and was manifestly beginning his fly-catching again; and beginning it
@@ -2372,7 +2372,7 @@
 
         <p><char name="mina">Mina</char> Murray’s Journal.</p>
 
-        <p><date>26 July</date>.—I am anxious, and it soothes me to express myself here; it is like
+        <p><date><day month="July">26 </day><Month>July</Month></date>.—I am anxious, and it soothes me to express myself here; it is like
             whispering to one’s self and listening at the same time. And there is also something
             about the shorthand symbols that makes it different from writing. I am unhappy about
                 <char name="lucy">Lucy</char> and about <char name="jonathan">Jonathan</char>. I had
@@ -2411,8 +2411,8 @@
                 <location>Ring</location> to see his father, who has been taken seriously ill. <char
                 name="lucy">Lucy</char> frets at the postponement of seeing him, but it does not
             touch her looks; she is a trifle stouter, and her cheeks are a lovely rose-pink. She has
-            lost that anæmic look which she had. I pray it will all last.<date>3
-            August</date>.—Another week gone, and no news from <char name="jonathan"
+            lost that anæmic look which she had. I pray it will all last.<date><day month="August">3</day>
+            <Month>August</Month></date>.—Another week gone, and no news from <char name="jonathan"
             >Jonathan</char>, not even to Mr. Hawkins, from whom I have heard. Oh, I do hope he is
             not ill. He surely would have written. I look at that last letter of his, but somehow it
             does not satisfy me. It does not read like him, and yet it is his writing. There is no
@@ -2421,7 +2421,7 @@
             sleep she seems to be watching me. She tries the door, and finding it locked, goes about
             the room searching for the key.</p>
 
-        <p><date>6 August</date>.—Another three days, and no news. This suspense is getting
+        <p><date><day month="August">6 </day><Month>August</Month></date>.—Another three days, and no news. This suspense is getting
             dreadful. If I only knew where to write to or where to go to, I should feel easier; but
             no one has heard a word of <char name="jonathan">Jonathan</char> since that last letter.
             I must only pray to God for patience. <char name="lucy">Lucy</char> is more excitable
@@ -2484,7 +2484,7 @@
     <chapter>
         <heading>CHAPTER VII</heading>
 
-        <p>CUTTING FROM THE DAILYGRAPH, <date>8 AUGUST</date></p>
+        <p>CUTTING FROM THE DAILYGRAPH, <date><day month="AUGUST">8 </day><Month>AUGUST</Month></date></p>
         <p>(Pasted in <char name="mina">Mina</char> Murray’s Journal.)</p>
 
         <p>From a Correspondent.</p>
@@ -2653,7 +2653,7 @@
             miraculously into harbour in the storm.</p>
 
         <p><location>Whitby</location></p>
-        <p><date>9 August</date>.—The sequel to the strange arrival of the derelict in the storm
+        <p><date><day month="August">9 </day><Month>August</Month></date>.—The sequel to the strange arrival of the derelict in the storm
             last night is almost more startling than the thing itself. It turns out that the
             schooner is a Russian from Varna, and is called the Demeter. She is almost entirely in
             ballast of silver sand, with only a small amount of cargo—a number of great wooden boxes
@@ -2691,24 +2691,24 @@
         <p>LOG OF THE DEMETER.</p>
         <p>Varna to <location>Whitby</location>.</p>
 
-        <p>Written <date>18 July</date>, things so strange happening, that I shall keep accurate
-            note henceforth till we land.On <date>6 July</date> we finished taking in cargo, silver
+        <p>Written <date><day month="July">18 </day><Month>July</Month></date>, things so strange happening, that I shall keep accurate
+            note henceforth till we land.On <date><day month="July">6 </day><Month>July</Month></date> we finished taking in cargo, silver
             sand and boxes of earth. At noon set sail. East wind, fresh. Crew, five hands ... two
-            mates, cook, and myself (captain).On <date>11 July</date> at dawn entered Bosphorus.
+            mates, cook, and myself (captain).On <date><day month="July">11 </day><Month>July</Month></date> at dawn entered Bosphorus.
             Boarded by Turkish Customs officers. Backsheesh. All correct. Under way at<time> 4 p.
-                m.</time>On <date>12 July</date> through Dardanelles. More Customs officers and
+                m.</time>On <date><day month="July">12 </day><Month>July</Month></date> through Dardanelles. More Customs officers and
             flagboat of guarding squadron. Backsheesh again. Work of officers thorough, but quick.
-            Want us off soon. At dark passed into Archipelago.On <date>13 July</date> passed Cape
+            Want us off soon. At dark passed into Archipelago.On <date><day month="July">13 </day><Month>July</Month></date> passed Cape
             Matapan. Crew dissatisfied about something. Seemed scared, but would not speak out.On
-                <date>14 July</date> was somewhat anxious about crew. Men all steady fellows, who
+                <date><day month="July">14 </day><Month>July</Month></date> was somewhat anxious about crew. Men all steady fellows, who
             sailed with me before. Mate could not make out what was wrong; they only told him there
             was something, and crossed themselves. Mate lost temper with one of them that day and
-            struck him. Expected fierce quarrel, but all was quiet.On <date>16 July</date> mate
+            struck him. Expected fierce quarrel, but all was quiet.On <date><day month="July">16 </day><Month>July</Month></date> mate
             reported in the morning that one of crew, Petrofsky, was missing. Could not account for
             it. Took larboard watch eight bells last night; was relieved by Abramoff, but did not go
             to bunk. Men more downcast than ever. All said they expected something of the kind, but
             would not say more than there was something aboard. Mate getting very impatient with
-            them; feared some trouble ahead.On <date>17 July</date>, yesterday, one of the men,
+            them; feared some trouble ahead.On <date><day month="July">17 </day><Month>July</Month></date>, yesterday, one of the men,
             Olgaren, came to my cabin, and in an awestruck way confided to me that he thought there
             was a strange man aboard the ship. He said that in his watch he had been sheltering
             behind the deck-house, as there was a rain-storm, when he saw a tall, thin man, who was
@@ -2723,24 +2723,24 @@
             helm, while the rest began thorough search, all keeping abreast, with lanterns: we left
             no corner unsearched. As there were only the big wooden boxes, there were no odd corners
             where a man could hide. Men much relieved when search over, and went back to work
-            cheerfully. First mate scowled, but said nothing.<date>22 July</date>.—Rough weather
+            cheerfully. First mate scowled, but said nothing.<date><day month="July">22 </day><Month>July</Month></date>.—Rough weather
             last three days, and all hands busy with sails—no time to be frightened. Men seem to
             have forgotten their dread. Mate cheerful again, and all on good terms. Praised men for
-            work in bad weather. Passed Gibralter and out through Straits. All well.<date>24
-                July</date>.—There seems some doom over this ship. Already a hand short, and
+            work in bad weather. Passed Gibralter and out through Straits. All well.<date><day month="July">24</day>
+                <Month>July</Month></date>.—There seems some doom over this ship. Already a hand short, and
             entering on the Bay of Biscay with wild weather ahead, and yet last night another man
             lost—disappeared. Like the first, he came off his watch and was not seen again. Men all
             in a panic of fear; sent a round robin, asking to have double watch, as they fear to be
             alone. Mate angry. Fear there will be some trouble, as either he or the men will do some
-                violence.<date>28 July</date>.—Four days in hell, knocking about in a sort of
+                violence.<date><day month="July">28 </day><Month>July</Month></date>.—Four days in hell, knocking about in a sort of
             maelstrom, and the wind a tempest. No sleep for any one. Men all worn out. Hardly know
             how to set a watch, since no one fit to go on. Second mate volunteered to steer and
             watch, and let men snatch a few hours’ sleep. Wind abating; seas still terrific, but
-            feel them less, as ship is steadier.<date>29 July</date>.—Another tragedy. Had single
+            feel them less, as ship is steadier.<date><day month="July">29 </day><Month>July</Month></date>.—Another tragedy. Had single
             watch to-night, as crew too tired to double. When morning watch came on deck could find
             no one except steersman. Raised outcry, and all came on deck. Thorough search, but no
             one found. Are now without second mate, and crew in a panic. Mate and I agreed to go
-            armed henceforth and wait for any sign of cause.<date>30 July</date>.—Last night.
+            armed henceforth and wait for any sign of cause.<date><day month="July">30 </day><Month>July</Month></date>.—Last night.
             Rejoiced we are nearing <location>England</location>. Weather fine, all sails set.
             Retired worn out; slept soundly; awaked by mate telling me that both man of watch and
             steersman missing. Only self and mate and two hands left to work ship.1 August.—Two days
@@ -2749,14 +2749,14 @@
             wind. Dare not lower, as could not raise them again. We seem to be drifting to some
             terrible doom. Mate now more demoralised than either of men. His stronger nature seems
             to have worked inwardly against himself. Men are beyond fear, working stolidly and
-            patiently, with minds made up to worst. They are Russian, he Roumanian.<date>2
-                August</date>, midnight.—Woke up from few minutes’ sleep by hearing a cry, seemingly
+            patiently, with minds made up to worst. They are Russian, he Roumanian.<date><day month="August">2</day>
+                <Month>August</Month></date>, midnight.—Woke up from few minutes’ sleep by hearing a cry, seemingly
             outside my port. Could see nothing in fog. Rushed on deck, and ran against mate. Tells
             me heard cry and ran, but no sign of man on watch. One more gone. Lord, help us! Mate
             says we must be past Straits of Dover, as in a moment of fog lifting he saw North
             Foreland, just as he heard the man cry out. If so we are now off in the North Sea, and
             only God can guide us in the fog, which seems to move with us; and God seems to have
-            deserted us.<date>3 August</date>.—At midnight I went to relieve the man at the wheel,
+            deserted us.<date><day month="August">3 </day><Month>August</Month></date>.—At midnight I went to relieve the man at the wheel,
             and when I got to it found no one there. The wind was steady, and as we ran before it
             there was no yawing. I dared not leave it, so shouted for the mate. After a few seconds
             he rushed up on deck in his flannels. He looked wild-eyed and haggard, and I greatly
@@ -2814,7 +2814,7 @@
 
         <p><char name="mina">Mina</char> Murray’s Journal.</p>
 
-        <p><date>8 August</date>.—<char name="lucy">Lucy</char> was very restless all night, and I,
+        <p><date><day month="August">8 </day><Month>August</Month></date>.—<char name="lucy">Lucy</char> was very restless all night, and I,
             too, could not sleep. The storm was fearful, and as it boomed loudly among the
             chimney-pots, it made me shudder. When a sharp puff came it seemed to be like a
                 distant<tech type="gun"> gun </tech>. Strangely enough, <char name="lucy"
@@ -2831,7 +2831,7 @@
             mouth of the harbour—like a bullying man going through a crowd. Somehow I felt glad that
                 <char name="jonathan">Jonathan</char> was not on the sea last night, but on land.
             But, oh, is he on land or sea? Where is he, and how? I am getting fearfully anxious
-            about him. If I only knew what to do, and could do anything!<date>10 August</date>.—The
+            about him. If I only knew what to do, and could do anything!<date><day month="August">10 </day><Month>August</Month></date>.—The
             funeral of the poor sea-captain to-day was most touching. Every boat in the harbour
             seemed to be there, and the coffin was carried by captains all the way from Tate Hill
             Pier up to the <location>churchyard</location>. <char name="lucy">Lucy</char> came with
@@ -2904,8 +2904,8 @@
             will make of it, too! There’s some consolation in that. I am so happy to-night, because
             dear <char name="lucy">Lucy</char> seems better. I really believe she has turned the
             corner, and that we are over her troubles with dreaming. I should be quite happy if I
-            only knew if <char name="jonathan">Jonathan</char>.... God bless and keep him.<date>11
-                August</date>,<time> 3 a. m.</time>—Diary again. No sleep now, so I may as well
+            only knew if <char name="jonathan">Jonathan</char>.... God bless and keep him.<date><day month="August">11</day>
+                <Month>August</Month></date>,<time> 3 a. m.</time>—Diary again. No sleep now, so I may as well
             write. I am too agitated to sleep. We have had such an adventure, such an agonising
             experience. I fell asleep as soon as I had closed my diary.... Suddenly I became broad
             awake, and sat up, with a horrible sense of fear upon me, and of some feeling of
@@ -3019,7 +3019,7 @@
             strolled in the Casino Terrace, and heard some good music by Spohr and Mackenzie, and
             went to bed early. <char name="lucy">Lucy</char> seems more restful than she has been
             for some time, and fell asleep at once. I shall lock the door and secure the key the
-            same as before, though I do not expect any trouble to-night.<date>12 August</date>.—My
+            same as before, though I do not expect any trouble to-night.<date><day month="August">12 </day><Month>August</Month></date>.—My
             expectations were wrong, for twice during the night I was wakened by <char name="lucy"
                 >Lucy</char> trying to get out. She seemed, even in her sleep, to be a little
             impatient at finding the door shut, and went back to bed under a sort of protest. I woke
@@ -3038,7 +3038,7 @@
             circles. Once or twice it came quite close, but was, I suppose, frightened at seeing me,
             and flitted away across the harbour towards the abbey. When I came back from the window
                 <char name="lucy">Lucy</char> had lain down again, and was sleeping peacefully. She
-            did not stir again all night.<date>14 August</date>.—On the East Cliff, reading and
+            did not stir again all night.<date><day month="August">14 </day><Month>August</Month></date>.—On the East Cliff, reading and
             writing all day. <char name="lucy">Lucy</char> seems to have become as much in love with
             the spot as I am, and it is hard to get her away from it when it is time to come home
             for lunch or tea or dinner. This afternoon she made a funny remark. We were coming home
@@ -3082,7 +3082,7 @@
 
         <p>She looks so sweet as she sleeps; but she is paler than is her wont, and there is a
             drawn, haggard look under her eyes which I do not like. I fear she is fretting about
-            something. I wish I could find out what it is.<date>15 August</date>.—Rose later than
+            something. I wish I could find out what it is.<date><day month="August">15 </day><Month>August</Month></date>.—Rose later than
             usual. <char name="lucy">Lucy</char> was languid and tired, and slept on after we had
             been called. We had a happy surprise at breakfast. Arthur’s father is better, and wants
             the marriage to come off soon. <char name="lucy">Lucy</char> is full of quiet joy, and
@@ -3093,7 +3093,7 @@
             made me promise secrecy; her doctor told her that within a few months, at most, she must
             die, for her heart is weakening. At any time, even now, a sudden shock would be almost
             sure to kill her. Ah, we were wise to keep from her the affair of the dreadful night of
-                <char name="lucy">Lucy</char>’s sleep-walking.<date>17 August</date>.—No diary for
+                <char name="lucy">Lucy</char>’s sleep-walking.<date><day month="August">17 </day><Month>August</Month></date>.—No diary for
             two whole days. I have not had the heart to write. Some sort of shadowy pall seems to be
             coming over our happiness. No news from <char name="jonathan">Jonathan</char>, and <char
                 name="lucy">Lucy</char> seems to be growing weaker, whilst her mother’s hours are
@@ -3115,7 +3115,7 @@
         <p>Letter, Samuel F. Billington &amp; Son, Solicitors, <location>Whitby</location>, to
             Messrs. Carter, Paterson &amp; Co., <location>London</location>.</p>
 
-        <p>"<date>17 August</date>.</p>
+        <p>"<date><day month="August">17 </day><Month>August</Month></date>.</p>
         <p>"Dear Sirs,—</p>
         <p>"Herewith please receive invoice of goods sent by Great Northern Railway. Same are to be
             delivered at <location>Carfax</location>, near Purfleet, immediately on receipt at goods
@@ -3146,7 +3146,7 @@
         <p>Letter, Messrs. Carter, Paterson &amp; Co., <location>London</location>, to Messrs.
             Billington &amp; Son, <location>Whitby</location>.</p>
 
-        <p>"<date>21 August</date>.</p>
+        <p>"<date><day month="August">21 </day><Month>August</Month></date>.</p>
         <p>"Dear Sirs,—</p>
         <p>"We beg to acknowledge £10 received and to return cheque £1 17s. 9d, amount of overplus,
             as shown in receipted account herewith. Goods are delivered in exact accordance with
@@ -3157,7 +3157,7 @@
         <p> Pro Carter, Paterson &amp; Co. </p>
         <p><char name="mina">Mina</char> Murray’s Journal.</p>
 
-        <p><date>18 August</date>.—I am happy to-day, and write sitting on the seat in the
+        <p><date><day month="August">18 </day><Month>August</Month></date>.—I am happy to-day, and write sitting on the seat in the
                 <location>churchyard</location>. <char name="lucy">Lucy</char> is ever so much
             better. Last night she slept well all night, and did not disturb me once. The roses seem
             coming back already to her cheeks, though she is still sadly pale and wan-looking. If
@@ -3193,7 +3193,7 @@
             subject, so we drifted on to other subjects, and <char name="lucy">Lucy</char> was like
             her old self again. When we got home the fresh breeze had braced her up, and her pale
             cheeks were really more rosy. Her mother rejoiced when she saw her, and we all spent a
-            very happy evening together.<date>19 August</date>.—Joy, joy, joy! although not all joy.
+            very happy evening together.<date><day month="August">19 </day><Month>August</Month></date>.—Joy, joy, joy! although not all joy.
             At last, news of <char name="jonathan">Jonathan</char>. The dear fellow has been ill;
             that is why he did not write. I am not afraid to think it or say it, now that I know.
             Mr. Hawkins sent me on the letter, and wrote himself, oh, so kindly. I am to leave in
@@ -3211,7 +3211,7 @@
         <p>Letter, Sister Agatha, Hospital of St. Joseph and Ste. Mary, Buda-Pesth, to Miss
             Wilhelmina Murray.</p>
 
-        <p>"<date>12 August</date>.</p>
+        <p>"<date><day month="August">12 </day><Month>August</Month></date>.</p>
         <p>"Dear Madam,—</p>
         <p>"I write by desire of Mr. <char name="jonathan">Jonathan Harker</char>, who is himself
             not strong enough to write, though progressing well, thanks to God and St. Joseph and
@@ -3246,7 +3246,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>19 August</date>.—Strange and sudden change in <char name="renfield"
+        <p><date><day month="August">19 </day><Month>August</Month></date>.—Strange and sudden change in <char name="renfield"
                 >Renfield</char> last night. About eight o’clock he began to get excited and sniff
             about as a dog does when setting. The attendant was struck by his manner, and knowing my
             interest in him, encouraged him to talk. He is usually respectful to the attendant and
@@ -3353,7 +3353,7 @@
         <p>Letter, <char name="mina">Mina Harker</char> to <char name="lucy">Lucy
             Westenra</char>.</p>
 
-        <p>"Buda-Pesth, <date>24 August</date>.</p>
+        <p>"Buda-Pesth, <date><day month="August">24 </day><Month>August</Month></date>.</p>
         <p>"My dearest <char name="lucy">Lucy</char>,—</p>
         <p>"I know you will be anxious to hear all that has happened since we parted at the <tech
                 type="railway"> railway </tech> station at <location>Whitby</location>. Well, my
@@ -3450,7 +3450,7 @@
         <p>Letter, <char name="lucy">Lucy Westenra</char> to <char name="mina">Mina
             Harker</char>.</p>
 
-        <p>"<location>Whitby</location>, <date>30 August</date>.</p>
+        <p>"<location>Whitby</location>, <date><day month="August">30 </day><Month>August</Month></date>.</p>
         <p>"My dearest <char name="mina">Mina</char>,—</p>
         <p>"Oceans of love and millions of kisses, and may you soon be in your own home with your
             husband. I wish you could be coming home soon enough to stay with us here. The strong
@@ -3467,11 +3467,11 @@
         <p>"<char name="lucy">Lucy</char>.</p>
         <p>"P. S.—Mother sends her love. She seems better, poor dear.</p>
 
-        <p> P. P. S.—We are to be married on <date>28 September</date>. </p>
+        <p> P. P. S.—We are to be married on <date><day month="September">28 </day><Month>September</Month></date>. </p>
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>20 August</date>.—The case of <char name="renfield">Renfield</char> grows even more
+        <p><date><day month="August">20 </day><Month>August</Month></date>.—The case of <char name="renfield">Renfield</char> grows even more
             interesting. He has now so far quieted that there are spells of cessation from his
             passion. For the first week after his attack he was perpetually violent. Then one night,
             just as the moon rose, he grew quiet, and kept murmuring to himself: Now I can wait; now
@@ -3527,7 +3527,7 @@
 
         <p><char name="lucy">Lucy Westenra</char>’s Diary</p>
 
-        <p>Hillingham, <date>24 August</date>.—I must imitate <char name="mina">Mina</char>, and
+        <p>Hillingham, <date><day month="August">24 </day><Month>August</Month></date>.—I must imitate <char name="mina">Mina</char>, and
             keep writing things down. Then we can have long talks when we do meet. I wonder when it
             will be. I wish she were with me again, for I feel so unhappy. Last night I seemed to be
             dreaming again just as I was at <location>Whitby</location>. Perhaps it is the change of
@@ -3535,7 +3535,7 @@
             but I am full of vague fear, and I feel so weak and worn out. When Arthur came to lunch
             he looked quite grieved when he saw me, and I hadn’t the spirit to try to be cheerful. I
             wonder if I could sleep in mother’s room to-night. I shall make an excuse and
-                try.<date>25 August</date>.—Another bad night. Mother did not seem to take to my
+                try.<date><day month="August">25 </day><Month>August</Month></date>.—Another bad night. Mother did not seem to take to my
             proposal. She seems not too well herself, and doubtless she fears to worry me. I tried
             to keep awake, and succeeded for a while; but when the clock struck twelve it waked me
             from a doze, so I must have been falling asleep. There was a sort of scratching or
@@ -3548,7 +3548,7 @@
         <p>Letter, <char name="holmwood">Arthur Holmwood</char> to Dr. <char name="renfield">R. M.
                 Renfield</char>.</p>
 
-        <p>"Albemarle Hotel, <date>31 August</date>.</p>
+        <p>"Albemarle Hotel, <date><day month="August">31 </day><Month>August</Month></date>.</p>
         <p>"My dear Jack,—</p>
         <p>"I want you to do me a favour. <char name="lucy">Lucy</char> is ill; that is, she has no
             special disease, but she looks awful, and is getting worse every day. I have asked her
@@ -3571,14 +3571,14 @@
         <p>Telegram, <char name="holmwood">Arthur Holmwood</char> to <char name="renfield">R. M.
                 Renfield</char>.</p>
 
-        <p>"<date>1 September</date>.</p>
+        <p>"<date><day month="September">1 </day><Month>September</Month></date>.</p>
         <p> Am summoned to see my father, who is worse. Am writing. Write me fully by to-night’s
             post to <location>Ring</location>. Wire me if necessary. </p>
 
         <p>Letter from Dr. <char name="renfield">R. M. Renfield</char> to <char name="holmwood"
                 >Arthur Holmwood</char>.</p>
 
-        <p>"<date>2 September</date>.</p>
+        <p>"<date><day month="September">2 </day><Month>September</Month></date>.</p>
         <p>"My dear old fellow,—</p>
         <p>"With regard to Miss <char name="lucy">Westenra</char>’s health I hasten to let you know
             at once that in my opinion there is not any functional disturbance or any malady that I
@@ -3646,7 +3646,7 @@
         <p>Letter, <char name="vanhelsing">Abraham Van Helsing</char>, M. D., D. Ph., D. Lit., etc.,
             etc., to Dr. <char name="renfield">R. M. Renfield</char>.</p>
 
-        <p>"<date>2 September</date>.</p>
+        <p>"<date><day month="September">2 </day><Month>September</Month></date>.</p>
         <p>"My good Friend,—</p>
         <p>"When I have received your letter I am already coming to you. By good fortune I can leave
             just at once, without wrong to any of those who have trusted me. Were fortune other,
@@ -3667,7 +3667,7 @@
         <p>Letter, Dr. <char name="renfield">R. M. Renfield</char> to Hon. <char name="holmwood"
                 >Arthur Holmwood</char>.</p>
 
-        <p>"<date>3 September</date>.</p>
+        <p>"<date><day month="September">3 </day><Month>September</Month></date>.</p>
         <p>"My dear Art,—</p>
         <p>"<char name="vanhelsing">Van Helsing</char> has come and gone. He came on with me to
             Hillingham, and found that, by <char name="lucy">Lucy</char>’s discretion, her mother
@@ -3731,7 +3731,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>4 September</date>.—Zoöphagous patient still keeps up our interest in him. He had
+        <p><date><day month="September">4 </day><Month>September</Month></date>.—Zoöphagous patient still keeps up our interest in him. He had
             only one outburst and that was yesterday at an unusual time. Just before the stroke of
             noon he began to grow restless. The attendant knew the symptoms, and at once summoned
             aid. Fortunately the men came at a run, and were just in time, for at the stroke of noon
@@ -3797,20 +3797,20 @@
                 <char name="vanhelsing">Van Helsing</char>, Amsterdam.</p>
 
         <p>
-            <date>4 September</date>.—Patient still better to-day. </p>
+            <date><day month="September">4 </day><Month>September</Month></date>.—Patient still better to-day. </p>
 
         <p>Telegram, <char name="renfield">R. M. Renfield</char>, <location>London</location>, to
                 <char name="vanhelsing">Van Helsing</char>, Amsterdam.</p>
 
         <p>
-            <date>5 September</date>.—Patient greatly improved. Good appetite; sleeps naturally;
+            <date><day month="September">5 </day><Month>September</Month></date>.—Patient greatly improved. Good appetite; sleeps naturally;
             good spirits; colour coming back. </p>
 
         <p>Telegram, <char name="renfield">R. M. Renfield</char>, <location>London</location>, to
                 <char name="vanhelsing">Van Helsing</char>, Amsterdam.</p>
 
         <p>
-            <date>6 September</date>.—Terrible change for the worse. Come at once; do not lose an
+            <date><day month="September">6 </day><Month>September</Month></date>.—Terrible change for the worse. Come at once; do not lose an
             hour. I hold over <tech type="telegram"> telegram </tech> to <char name="holmwood"
                 >Holmwood</char> till have seen you. </p>
 
@@ -3820,7 +3820,7 @@
         <p>Letter, Dr. <char name="renfield">R. M. Renfield</char> to Hon. <char name="holmwood"
                 >Arthur Holmwood</char>.</p>
 
-        <p>"<date>6 September</date>.</p>
+        <p>"<date><day month="September">6 </day><Month>September</Month></date>.</p>
         <p>"My dear Art,—</p>
         <p>"My news to-day is not so good. <char name="lucy">Lucy</char> this morning had gone back
             a bit. There is, however, one good thing which has arisen from it; Mrs. <char
@@ -3839,7 +3839,7 @@
         <p> John <char name="renfield">R. M. Renfield</char>. </p>
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>7 September</date>.—The first thing <char name="vanhelsing">Van Helsing</char> said
+        <p><date><day month="September">7 </day><Month>September</Month></date>.—The first thing <char name="vanhelsing">Van Helsing</char> said
             to me when we met at Liverpool Street was:—</p>
 
         <p> Have you said anything to our young friend the lover of her? </p>
@@ -4065,7 +4065,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary—continued.</p>
 
-        <p><date>8 September</date>.—I sat up all night with <char name="lucy">Lucy</char>. The
+        <p><date><day month="September">8 </day><Month>September</Month></date>.—I sat up all night with <char name="lucy">Lucy</char>. The
             opiate worked itself off towards dusk, and she waked naturally; she looked a different
             being from what she had been before the operation. Her spirits even were good, and she
             was full of a happy vivacity, but I could see evidences of the absolute prostration
@@ -4138,7 +4138,7 @@
 
         <p><char name="lucy">Lucy Westenra</char>’s Diary.</p>
 
-        <p><date>9 September</date>.—I feel so happy to-night. I have been so miserably weak, that
+        <p><date><day month="September">9 </day><Month>September</Month></date>.—I feel so happy to-night. I have been so miserably weak, that
             to be able to think and move about is like feeling sunshine after a long spell of east
             wind out of a steel sky. Somehow Arthur feels very, very close to me. I seem to feel his
             presence warm about me. I suppose it is that sickness and weakness are selfish things
@@ -4152,7 +4152,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>10 September</date>.—I was conscious of the Professor’s hand on my head, and
+        <p><date><day month="September">10 </day><Month>September</Month></date>.—I was conscious of the Professor’s hand on my head, and
             started awake all in a second. That is one of the things that we learn in an
                 <location>asylum</location>, at any rate.</p>
 
@@ -4348,7 +4348,7 @@
         <heading>CHAPTER XI</heading>
         <p><char name="lucy">Lucy Westenra</char>’s Diary.</p>
 
-        <p><date>12 September</date>.—How good they all are to me. I quite love that dear Dr. <char
+        <p><date><day month="September">12 </day><Month>September</Month></date>.—How good they all are to me. I quite love that dear Dr. <char
                 name="vanhelsing">Van Helsing</char>. I wonder why he was so anxious about these
             flowers. He positively frightened me, he was so fierce. And yet he must have been right,
             for I feel comfort from them already. Somehow, I do not dread being alone to-night, and
@@ -4363,7 +4363,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>13 September</date>.—Called at the Berkeley and found <char name="vanhelsing">Van
+        <p><date><day month="September">13 </day><Month>September</Month></date>.—Called at the Berkeley and found <char name="vanhelsing">Van
                 Helsing</char>, as usual, up to time. The <tech type="carriage"> carriage
             </tech>ordered from the hotel was waiting. The Professor took his bag, which he always
             brings with him now.</p>
@@ -4450,7 +4450,7 @@
 
         <p><char name="lucy">Lucy Westenra</char>’s Diary.</p>
 
-        <p><date>17 September</date>.—Four days and nights of peace. I am getting so strong again
+        <p><date><day month="September">17 </day><Month>September</Month></date>.—Four days and nights of peace. I am getting so strong again
             that I hardly know myself. It is as if I had passed through some long nightmare, and had
             just awakened to see the beautiful sunshine and feel the fresh air of the morning around
             me. I have a dim half-remembrance of long, anxious times of waiting and fearing;
@@ -4471,7 +4471,7 @@
             not fear to go to sleep again, although the boughs or bats or something napped almost
             angrily against the window-panes.</p>
 
-        <p>The Pall Mall Gazette, <date>18 September</date>.</p>
+        <p>The Pall Mall Gazette, <date><day month="September">18 </day><Month>September</Month></date>.</p>
 
         <p>THE ESCAPED WOLF.</p>
 
@@ -4657,7 +4657,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>17 September</date>.—I was engaged after dinner in my study posting up my books,
+        <p><date><day month="September">17 </day><Month>September</Month></date>.—I was engaged after dinner in my study posting up my books,
             which, through press of other work and the many visits to <char name="lucy">Lucy</char>,
             had fallen sadly into arrear. Suddenly the door was burst open, and in rushed my
             patient, with his face distorted with passion. I was thunderstruck, for such a thing as
@@ -4688,13 +4688,13 @@
             twenty-two hours.)</p>
 
         <p>
-            <date>17 September</date>.—Do not fail to be at Hillingham to-night. If not watching all
+            <date><day month="September">17 </day><Month>September</Month></date>.—Do not fail to be at Hillingham to-night. If not watching all
             the time frequently, visit and see that flowers are as placed; very important; do not
             fail. Shall be with you as soon as possible after arrival. </p>
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>18 September</date>.—Just off for <tech type="train"> train </tech>to
+        <p><date><day month="September">18 </day><Month>September</Month></date>.—Just off for <tech type="train"> train </tech>to
                 <location>London</location>. The arrival of <char name="vanhelsing">Van
                 Helsing</char>’s <tech type="telegram"> telegram </tech> filled me with dismay. A
             whole night lost, and I know by bitter experience what may happen in a night. Of course
@@ -4705,7 +4705,7 @@
 
         <p>Memorandum left by <char name="lucy">Lucy Westenra</char>.</p>
 
-        <p><date>17 September</date>. Night.—I write this and leave it to be seen, so that no one
+        <p><date><day month="September">17 </day><Month>September</Month></date>. Night.—I write this and leave it to be seen, so that no one
             may by any chance get into trouble through me. This is an exact record of what took
             place to-night. I feel I am dying of weakness, and have barely strength to write, but it
             must be done if I die in the doing.</p>
@@ -4794,7 +4794,7 @@
         <heading>CHAPTER XII</heading>
 
         <p>DR. SEWARD’S DIARY</p>
-        <p><date>18 September</date>.—I drove at once to Hillingham and arrived early. Keeping my
+        <p><date><day month="September">18 </day><Month>September</Month></date>.—I drove at once to Hillingham and arrived early. Keeping my
             cab at the gate, I went up the avenue alone. I knocked gently and rang as quietly as
             possible, for I feared to disturb <char name="lucy">Lucy</char> or her mother, and hoped
             to only bring a servant to the door. After a while, finding no response, I knocked and
@@ -5079,7 +5079,7 @@
             tearing, as though the material were still in her hands; finally she lifted her hands
             and opened them as though scattering the fragments. <char name="vanhelsing">Van
                 Helsing</char> seemed surprised, and his brows gathered as if in thought, but he
-            said nothing.<date>19 September</date>.—All last night she slept fitfully, being always
+            said nothing.<date><day month="September">19 </day><Month>September</Month></date>.—All last night she slept fitfully, being always
             afraid to sleep, and something weaker when she woke from it. The Professor and I took it
             in turns to watch, and we never left her for a moment unattended. <char name="morris"
                 >Quincey Morris</char> said nothing about his intention, but I knew that all night
@@ -5116,7 +5116,7 @@
             Westenra</char>.</p>
         <p>(Unopened by her.)</p>
 
-        <p>"<date>17 September</date>.</p>
+        <p>"<date><day month="September">17 </day><Month>September</Month></date>.</p>
         <p>"My dearest <char name="lucy">Lucy</char>,—</p>
         <p>"It seems an age since I heard from you, or indeed since I wrote. You will pardon me, I
             know, for all my faults when you have read all my budget of news. Well, I got my husband
@@ -5165,7 +5165,7 @@
         <p>Report from Patrick Hennessey, M. D., M. R. C. S. L. K. Q. C. P. I., etc., etc., to John
                 <char name="renfield">R. M. Renfield</char>, M. D.</p>
 
-        <p>"<date>20 September</date>.</p>
+        <p>"<date><day month="September">20 </day><Month>September</Month></date>.</p>
         <p>"My dear Sir,—</p>
         <p>In accordance with your wishes, I enclose report of the conditions of everything left in
             my charge.... With regard to patient, <char name="renfield">Renfield</char>, there is
@@ -5238,7 +5238,7 @@
             Westenra</char>.</p>
         <p>(Unopened by her.)</p>
 
-        <p>"<date>18 September</date>.</p>
+        <p>"<date><day month="September">18 </day><Month>September</Month></date>.</p>
         <p>"My dearest <char name="lucy">Lucy</char>,—</p>
         <p>"Such a sad blow has befallen us. Mr. Hawkins has died very suddenly. Some may not think
             it so sad for us, but we had both come to so love him that it really seems as though we
@@ -5270,7 +5270,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>20 September</date>.—Only resolution and habit can let me make an entry to-night. I
+        <p><date><day month="September">20 </day><Month>September</Month></date>.—Only resolution and habit can let me make an entry to-night. I
             am too miserable, too low-spirited, too sick of the world and all in it, including life
             itself, that I would not care if I heard this moment the flapping of the wings of the
             angel of death. And he has been flapping those grim wings to some purpose of late—<char
@@ -5754,7 +5754,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>22 September</date>.—In the <tech type="train"> train </tech>to
+        <p><date><day month="September">22 </day><Month>September</Month></date>.—In the <tech type="train"> train </tech>to
                 <location>Exeter</location>. <char name="jonathan">Jonathan</char>
             sleeping.</p>
 
@@ -5855,7 +5855,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>22 September</date>.—It is all over. Arthur has gone back to
+        <p><date><day month="September">22 </day><Month>September</Month></date>.—It is all over. Arthur has gone back to
                 <location>Ring</location>, and has taken <char name="morris">Quincey Morris</char>
             with him. What a fine fellow is <char name="morris">Quincey</char>! I believe in my
             heart of hearts that he suffered as much about <char name="lucy">Lucy</char>’s death as
@@ -5969,7 +5969,7 @@
             up the thread of my life-work, I say sadly and without hope,</p>
 
         <p> FINIS. </p>
-        <p>The Westminster Gazette, <date>25 September</date>.</p>
+        <p>The Westminster Gazette, <date><day month="September">25 </day><Month>September</Month></date>.</p>
 
         <p>A HAMPSTEAD MYSTERY.</p>
         <p>The neighbourhood of <location>Hampstead</location> is just at present exercised with a
@@ -6001,7 +6001,7 @@
             keep a sharp look-out for straying children, especially when very young, in and around
                 <location>Hampstead Heath</location>, and for any stray dog which may be about.</p>
 
-        <p>The Westminster Gazette, <date>25 September</date>.</p>
+        <p>The Westminster Gazette, <date><day month="September">25 </day><Month>September</Month></date>.</p>
 
         <p>Extra Special.</p>
 
@@ -6022,7 +6022,7 @@
         <heading>CHAPTER XIV</heading>
 
         <p>MINA HARKER’S JOURNAL</p>
-        <p><date>23 September</date>.—<char name="jonathan">Jonathan</char> is better after a bad
+        <p><date><day month="September">23 </day><Month>September</Month></date>.—<char name="jonathan">Jonathan</char> is better after a bad
             night. I am so glad that he has plenty of work to do, for that keeps his mind off the
             terrible things; and oh, I am rejoiced that he is not now weighed down with the
             responsibility of his new position. I knew he would be true to himself, and now how
@@ -6032,7 +6032,7 @@
             done, so I shall take his foreign journal, and lock myself up in my room and read
             it....</p>
 
-        <p><date>24 September</date>.—I hadn’t the heart to write last night; that terrible record
+        <p><date><day month="September">24 </day><Month>September</Month></date>.—I hadn’t the heart to write last night; that terrible record
             of <char name="jonathan">Jonathan</char>’s upset me so. Poor dear! How he must have
             suffered, whether it be true or only imagination. I wonder if there is any truth in it
             at all. Did he get his brain fever, and then write all those terrible things, or had he
@@ -6055,7 +6055,7 @@
 
         <p>Letter, <char name="vanhelsing">Van Helsing</char> to Mrs. Harker.</p>
 
-        <p>"<date>24 September</date>.</p>
+        <p>"<date><day month="September">24 </day><Month>September</Month></date>.</p>
         <p>(Confidence)</p>
         <p>"Dear Madam,—</p>
         <p>"I pray you to pardon my writing, in that I am so far friend as that I sent to you sad
@@ -6078,12 +6078,12 @@
             <char name="vanhelsing">Van Helsing</char>. </p>
         <p>Telegram, Mrs. Harker to <char name="vanhelsing">Van Helsing</char>.</p>
 
-        <p>"<date>25 September</date>.—Come to-day by quarter-past ten <tech type="train"> train
+        <p>"<date><day month="September">25 </day><Month>September</Month></date>.—Come to-day by quarter-past ten <tech type="train"> train
             </tech>if you can catch it. Can see you any time you call.</p>
 
         <p> Wilhelmina Harker. </p>
         <p>MINA HARKER’S JOURNAL.</p>
-        <p><date>25 September</date>.—I cannot help feeling terribly excited as the time draws near
+        <p><date><day month="September">25 </day><Month>September</Month></date>.—I cannot help feeling terribly excited as the time draws near
             for the visit of Dr. <char name="vanhelsing">Van Helsing</char>, for somehow I expect
             that it will throw some light upon <char name="jonathan">Jonathan</char>’s sad
             experience; and as he attended poor dear <char name="lucy">Lucy</char> in her last
@@ -6319,7 +6319,7 @@
 
         <p>Letter (by hand), <char name="vanhelsing">Van Helsing</char> to Mrs. Harker.</p>
 
-        <p>"<date>25 September</date>, 6 o’clock.</p>
+        <p>"<date><day month="September">25 </day><Month>September</Month></date>, 6 o’clock.</p>
         <p>"Dear Madam <char name="mina">Mina</char>,—</p>
         <p>"I have read your husband’s so wonderful diary. You may sleep without doubt. Strange and
             terrible as it is, it is true! I will pledge my life on it. It may be worse for others;
@@ -6336,7 +6336,7 @@
             <char name="vanhelsing">Abraham Van Helsing</char>. </p>
         <p>Letter, Mrs. Harker to <char name="vanhelsing">Van Helsing</char>.</p>
 
-        <p>"<date>25 September</date>, <time>6:30 p. m.</time></p>
+        <p>"<date><day month="September">25 </day><Month>September</Month></date>, <time>6:30 p. m.</time></p>
         <p>"My dear Dr. <char name="vanhelsing">Van Helsing</char>,—</p>
         <p>"A thousand thanks for your kind letter, which has taken a great weight off my mind. And
             yet, if it be true, what terrible things there are in the world, and what an awful thing
@@ -6356,7 +6356,7 @@
             <char name="mina">Mina Harker</char>. </p>
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p><date>26 September</date>.—I thought never to write in this diary again, but the time has
+        <p><date><day month="September">26 </day><Month>September</Month></date>.—I thought never to write in this diary again, but the time has
             come. When I got home last night <char name="mina">Mina</char> had supper ready, and
             when we had supped she told me of Van Helsing’s visit, and of her having given him the
             two diaries copied out, and of how anxious she has been about me. She showed me in the
@@ -6438,7 +6438,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>26 September</date>.—Truly there is no such thing as finality. Not a week since I
+        <p><date><day month="September">26 </day><Month>September</Month></date>.—Truly there is no such thing as finality. Not a week since I
             said Finis, and yet here I am starting fresh again, or rather going on with the same
             record. Until this afternoon I had no cause to think of what is done. <char
                 name="renfield">Renfield</char> had become, to all intents, as sane as he ever was.
@@ -6806,7 +6806,7 @@
 
         <p>I cannot sleep, so I make this entry. But I must try to get a few hours’ sleep, as Van
             Helsing is to call for me at noon. He insists that I shall go with him on another
-                expedition.<date>27 September</date>.—It was two o’clock before we found a suitable
+                expedition.<date><day month="September">27 </day><Month>September</Month></date>.—It was two o’clock before we found a suitable
             opportunity for our attempt. The funeral held at noon was all completed, and the last
             stragglers of the mourners had taken themselves lazily away, when, looking carefully
             from behind a clump of alder-trees, we saw the sexton lock the gate after him. We knew
@@ -6926,7 +6926,7 @@
                 Renfield</char>, M. D.</p>
 
         <p>(Not delivered.)</p>
-        <p>"<date>27 September</date>.</p>
+        <p>"<date><day month="September">27 </day><Month>September</Month></date>.</p>
         <p>"Friend John,—</p>
         <p>"I write this in case anything should happen. I go alone to watch in that
                 <location>churchyard</location>. It pleases me that the Un-Dead, Miss <char
@@ -6962,7 +6962,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>28 September</date>.—It is wonderful what a good night’s sleep will do for one.
+        <p><date><day month="September">28 </day><Month>September</Month></date>.—It is wonderful what a good night’s sleep will do for one.
             Yesterday I was almost willing to accept <char name="vanhelsing">Van Helsing</char>’s
             monstrous ideas; but now they seem to start out lurid before me as outrages on common
             sense. I have no doubt that he believes it all. I wonder if his mind can have become in
@@ -6972,7 +6972,7 @@
             fixed idea in a wonderful way. I am loath to think it, and indeed it would be almost as
             great a marvel as the other to find that <char name="vanhelsing">Van Helsing</char> was
             mad; but anyhow I shall watch him carefully. I may get some light on the
-                mystery.<date>29 September</date>, morning..... Last night, at a little before ten
+                mystery.<date><day month="September">29 </day><Month>September</Month></date>, morning..... Last night, at a little before ten
             o’clock, Arthur and <char name="morris">Quincey</char> came into <char name="vanhelsing"
                 >Van Helsing</char>’s room; he told us all that he wanted us to do, but especially
             addressing himself to Arthur, as if all our wills were centred in his. He began by
@@ -7318,7 +7318,7 @@
 
         <p>Arthur and <char name="morris">Quincey</char> came home with me, and we tried to cheer
             each other on the way. We had left the child in safety, and were tired; so we all slept
-            with more or less reality of sleep.<date>29 September</date>, night.—A little before
+            with more or less reality of sleep.<date><day month="September">29 </day><Month>September</Month></date>, night.—A little before
             twelve o’clock we three—Arthur, <char name="morris">Quincey</char>
             <char name="morris">Morris</char>, and myself—called for the Professor. It was odd to
             notice that by common consent we had all put on black clothes. Of course, Arthur wore
@@ -7561,7 +7561,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>29 September</date>.—After I had tidied myself, I went down to Dr. <char
+        <p><date><day month="September">29 </day><Month>September</Month></date>.—After I had tidied myself, I went down to Dr. <char
                 name="renfield">R. M. Renfield</char>’s study. At the door I paused a moment, for I
             thought I heard him talking with some one. As, however, he had pressed me to be quick, I
             knocked at the door, and on his calling out, Come in, I entered.</p>
@@ -7646,7 +7646,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>29 September</date>.—I was so absorbed in that wonderful diary of <char
+        <p><date><day month="September">29 </day><Month>September</Month></date>.—I was so absorbed in that wonderful diary of <char
                 name="jonathan">Jonathan Harker</char> and that other of his wife that I let the
             time run on without thinking. Mrs. Harker was not down when the maid came to announce
             dinner, so I said: She is possibly tired; let dinner wait an hour, and I went on with my
@@ -7678,8 +7678,8 @@
             all the help which we can get. I think that the cylinders which you gave me contained
             more than you intended me to know; but I can see that there are in your record many
             lights to this dark mystery. You will let me help, will you not? I know all up to a
-            certain point; and I see already, though your diary only took me to <date>7
-                September</date>, how poor <char name="lucy">Lucy</char> was beset, and how her
+            certain point; and I see already, though your diary only took me to <date><day month="September">7</day>
+                <Month>September</Month></date>, how poor <char name="lucy">Lucy</char> was beset, and how her
             terrible doom was being wrought out. <char name="jonathan">Jonathan</char> and I have
             been working day and night since Professor <char name="vanhelsing">Van Helsing</char>
             saw us. He is gone to <location>Whitby</location> to get more information, and he will
@@ -7697,7 +7697,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>29 September</date>.—After dinner I came with Dr. <char name="renfield">R. M.
+        <p><date><day month="September">29 </day><Month>September</Month></date>.—After dinner I came with Dr. <char name="renfield">R. M.
                 Renfield</char> to his study. He brought back the <tech type="phonograph">
                 phonograph</tech> from my room, and I took my <tech type="typewriter"> typewriter
             </tech>. He placed me in a comfortable chair, and arranged the <tech type="phonograph">
@@ -7747,7 +7747,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>30 September</date>.—<char name="jonathan">Mr. Harker</char> arrived at nine
+        <p><date><day month="September">30 </day><Month>September</Month></date>.—<char name="jonathan">Mr. Harker</char> arrived at nine
             o’clock. He had got his wife’s <tech type="telegram">wire</tech> just before starting.
             He is uncommonly clever, if one can judge from his face, and full of energy. If this
             journal be true—and judging by one’s own wonderful experiences, it must be—he is also a
@@ -7794,7 +7794,7 @@
 
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p><date>29 September</date>, in <tech type="train"> train </tech>to
+        <p><date><day month="September">29 </day><Month>September</Month></date>, in <tech type="train"> train </tech>to
                 <location>London</location>.—When I received Mr. Billington’s courteous message that
             he would give me any information in his power I thought it best to go down to
                 <location>Whitby</location> and make, on the spot, such inquiries as I wanted. It
@@ -7825,7 +7825,7 @@
             of appreciation of their efforts in a liquid form; another put in a rider that the
             thirst then generated was such that even the time which had elapsed had not completely
             allayed it. Needless to add, I took care before leaving to lift, for ever and
-            adequately, this source of reproach.<date>30 September</date>.—The station-master was
+            adequately, this source of reproach.<date><day month="September">30 </day><Month>September</Month></date>.—The station-master was
             good enough to give me a line to his old companion the station-master at King’s Cross,
             so that when I arrived there in the morning I was able to ask him about the arrival of
             the boxes. He, too, put me at once in communication with the proper officials, and I saw
@@ -7868,7 +7868,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal</p>
 
-        <p><date>30 September</date>.—I am so glad that I hardly know how to contain myself. It is,
+        <p><date><day month="September">30 </day><Month>September</Month></date>.—I am so glad that I hardly know how to contain myself. It is,
             I suppose, the reaction from the haunting fear which I have had: that this terrible
             affair and the reopening of his old wound might act detrimentally on <char
                 name="jonathan">Jonathan</char>. I saw him leave for <location>Whitby</location>
@@ -7990,7 +7990,7 @@
         <heading>CHAPTER XVIII</heading>
 
         <p>DR. SEWARD’S DIARY</p>
-        <p><date>30 September</date>.—I got home at five o’clock, and found that Godalming and <char
+        <p><date><day month="September">30 </day><Month>September</Month></date>.—I got home at five o’clock, and found that Godalming and <char
                 name="morris">Morris</char> had not only arrived, but had already studied the
             transcript of the various diaries and letters which Harker and his wonderful wife had
             made and arranged. Harker had not yet returned from his visit to the carriers’ men, of
@@ -8157,7 +8157,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>30 September</date>.—When we met in Dr. <char name="renfield">R. M.
+        <p><date><day month="September">30 </day><Month>September</Month></date>.—When we met in Dr. <char name="renfield">R. M.
             Renfield</char>’s study two hours after dinner, which had been at six o’clock, we
             unconsciously formed a sort of board or committee. Professor <char name="vanhelsing">Van
                 Helsing</char> took the head of the table, to which Dr. <char name="renfield">R. M.
@@ -8396,7 +8396,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>1 October</date>,<time> 4 a. m.</time>—Just as we were about to leave the house, an
+        <p><date><day month="October">1 </day><Month>October</Month></date>,<time> 4 a. m.</time>—Just as we were about to leave the house, an
             urgent message was brought to me from <char name="renfield">Renfield</char> to know if I
             would see him at once, as he had something of the utmost importance to say to me. I told
             the messenger to say that I would attend to his wishes in the morning; I was busy just
@@ -8564,7 +8564,7 @@
         <heading>CHAPTER XIX</heading>
 
         <p>JONATHAN HARKER’S JOURNAL</p>
-        <p><date>1 October</date>,<time> 5 a. m.</time>—I went with the party to the search with an
+        <p><date><day month="October">1 </day><Month>October</Month></date>,<time> 5 a. m.</time>—I went with the party to the search with an
             easy mind, for I think I never saw <char name="mina">Mina</char> so absolutely strong
             and well. I am so glad that she consented to hold back and let us men do the work.
             Somehow, it was a dread to me that she was in this fearful business at all; but now that
@@ -8804,7 +8804,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>1 October</date>.—It was towards noon when I was awakened by the Professor walking
+        <p><date><day month="October">1 </day><Month>October</Month></date>.—It was towards noon when I was awakened by the Professor walking
             into my room. He was more jolly and cheerful than usual, and it is quite evident that
             last night’s work has helped to take some of the brooding weight off his mind. After
             going over the adventure of the night he suddenly said:—</p>
@@ -8865,7 +8865,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>1 October</date>.—It is strange to me to be kept in the dark as I am to-day; after
+        <p><date><day month="October">1 </day><Month>October</Month></date>.—It is strange to me to be kept in the dark as I am to-day; after
                 <char name="jonathan">Jonathan</char>’s full confidence for so many years, to see
             him manifestly avoid certain matters, and those the most vital of all. This morning I
             slept late after the fatigues of yesterday, and though <char name="jonathan"
@@ -8963,7 +8963,7 @@
             would become woven into their fears for me. To-night I shall strive hard to sleep
             naturally. If I do not, I shall to-morrow night get them to give me a dose of chloral;
             that cannot hurt me for once, and it will give me a good night’s sleep. Last night tired
-            me more than if I had not slept at all.<date>2 October</date><time> 10 p. m.</time>—Last
+            me more than if I had not slept at all.<date><day month="October">2 </day><Month>October</Month></date><time> 10 p. m.</time>—Last
             night I slept, but did not dream. I must have slept soundly, for I was not waked by
                 <char name="jonathan">Jonathan</char> coming to bed; but the sleep has not refreshed
             me, for to-day I feel terribly weak and spiritless. I spent all yesterday trying to
@@ -8991,7 +8991,7 @@
         <heading>CHAPTER XX</heading>
 
         <p>JONATHAN HARKER’S JOURNAL</p>
-        <p><date>1 October</date>, evening.—I found Thomas Snelling in his house at
+        <p><date><day month="October">1 </day><Month>October</Month></date>, evening.—I found Thomas Snelling in his house at
                 <location>Bethnal Green</location>, but unhappily he was not in a condition to
             remember anything. The very prospect of beer which my expected coming had opened to him
             had proved too much, and he had begun too early on his expected debauch. I learned,
@@ -9271,7 +9271,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>1 October</date>.—I am puzzled afresh about <char name="renfield">Renfield</char>.
+        <p><date><day month="October">1 </day><Month>October</Month></date>.—I am puzzled afresh about <char name="renfield">Renfield</char>.
             His moods change so rapidly that I find it difficult to keep touch of them, and as they
             always mean something more than his own well-being, they form a more than interesting
             study. This morning, when I went to see him after his repulse of <char name="vanhelsing"
@@ -9464,7 +9464,7 @@
 
         <p>Letter, Mitchell, Sons and Candy to Lord Godalming.</p>
 
-        <p>"<date>1 October</date>.</p>
+        <p>"<date><day month="October">1 </day><Month>October</Month></date>.</p>
         <p>"My Lord,</p>
         <p>"We are at all times only too happy to meet your wishes. We beg, with regard to the
             desire of your Lordship, expressed by <char name="jonathan">Mr. Harker</char> on your
@@ -9480,7 +9480,7 @@
         <p> Mitchell, Sons &amp; Candy. </p>
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>2 October</date>.—I placed a man in the corridor last night, and told him to make
+        <p><date><day month="October">2 </day><Month>October</Month></date>.—I placed a man in the corridor last night, and told him to make
             an accurate note of any sound he might hear from <char name="renfield">Renfield</char>’s
             room, and gave him instructions that if there should be anything strange he was to call
             me. After dinner, when we had all gathered round the fire in the study—Mrs. Harker
@@ -9527,7 +9527,7 @@
         <heading>CHAPTER XXI</heading>
 
         <p>DR. SEWARD’S DIARY</p>
-        <p><date>3 October</date>.—Let me put down with exactness all that happened, as well as I
+        <p><date><day month="October">3 </day><Month>October</Month></date>.—Let me put down with exactness all that happened, as well as I
             can remember it, since last I made an entry. Not a detail that I can recall must be
             forgotten; in all calmness I must proceed.</p>
 
@@ -10026,7 +10026,7 @@
         <heading>CHAPTER XXII</heading>
 
         <p>JONATHAN HARKER’S JOURNAL</p>
-        <p><date>3 October</date>.—As I must do something or go mad, I write this diary. It is now
+        <p><date><day month="October">3 </day><Month>October</Month></date>.—As I must do something or go mad, I write this diary. It is now
             six o’clock, and we are to meet in the study in half an hour and take something to eat;
             for Dr. Van Helsing and Dr. <char name="renfield">R. M. Renfield</char> are agreed that
             if we do not eat we cannot work our best. Our best will be, God knows, required to-day.
@@ -10469,7 +10469,7 @@
         <heading>CHAPTER XXIII</heading>
 
         <p>DR. SEWARD’S DIARY</p>
-        <p><date>3 October</date>.—The time seemed terrible long whilst we were waiting for the
+        <p><date><day month="October">3 </day><Month>October</Month></date>.—The time seemed terrible long whilst we were waiting for the
             coming of Godalming and <char name="morris">Quincey Morris</char>. The Professor tried
             to keep our minds active by using them all the time. I could see his beneficent purpose,
             by the side glances which he threw from time to time at Harker. The poor fellow is
@@ -10763,7 +10763,7 @@
 
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p>3-<date>4 October</date>, close to midnight.—I thought yesterday would never end. There
+        <p>3-<date><day month="October">4 </day><Month>October</Month></date>, close to midnight.—I thought yesterday would never end. There
             was over me a yearning for sleep, in some sort of blind belief that to wake would be to
             find things changed, and that any change must now be for the better. Before we parted,
             we discussed what our next step was to be, but we could arrive at no result. All we knew
@@ -10801,7 +10801,7 @@
             pale face as she put her arms round me and said softly:—</p>
 
         <p>Oh, thank God for good brave men! With a sigh she sank back again to sleep. I write this
-            now as I am not sleepy, though I must try again.<date>4 October</date>, morning.—Once
+            now as I am not sleepy, though I must try again.<date><day month="October">4 </day><Month>October</Month></date>, morning.—Once
             again during the night I was wakened by <char name="mina">Mina</char>. This time we had
             all had a good sleep, for the grey of the coming dawn was making the windows into sharp
             oblongs, and the gas flame was like a speck rather than a disc of light. She said to me
@@ -10987,7 +10987,7 @@
 
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p><date>4 October</date>.—When I read to <char name="mina">Mina</char>, <char
+        <p><date><day month="October">4 </day><Month>October</Month></date>.—When I read to <char name="mina">Mina</char>, <char
                 name="vanhelsing">Van Helsing</char>’s message in the <tech type="phonograph">
                 phonograph</tech>, the poor girl brightened up considerably. Already the certainty
             that <person>the Count</person> is out of the country has given her comfort; and comfort
@@ -11012,7 +11012,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>5 October</date>,<time> 5 p. m.</time>—Our meeting for report. Present: Professor
+        <p><date><day month="October">5 </day><Month>October</Month></date>,<time> 5 p. m.</time>—Our meeting for report. Present: Professor
                 <char name="vanhelsing">Van Helsing</char>, Lord Godalming, Dr. <char
                 name="renfield">R. M. Renfield</char>, Mr. <char name="morris">Quincey
             Morris</char>, <char name="jonathan">Jonathan Harker</char>, <char name="mina">Mina
@@ -11189,7 +11189,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>5 October</date>.—We all rose early, and I think that sleep did much for each and
+        <p><date><day month="October">5 </day><Month>October</Month></date>.—We all rose early, and I think that sleep did much for each and
             all of us. When we met at early breakfast there was more general cheerfulness than any
             of us had ever expected to experience again.</p>
 
@@ -11307,7 +11307,7 @@
 
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p><date>5 October</date>, afternoon.—For some time after our meeting this morning I could
+        <p><date><day month="October">5 </day><Month>October</Month></date>, afternoon.—For some time after our meeting this morning I could
             not think. The new phases of things leave my mind in a state of wonder which allows no
             room for active thought. <char name="mina">Mina</char>’s determination not to take any
             part in the discussion set me thinking; and as I could not argue the matter with her, I
@@ -11352,7 +11352,7 @@
             sleeping like a little child; it is a wonderful thing that her faculty of sleep remains
             to her in the midst of her terrible trouble. Thank God for it, for then at least she can
             forget her care. Perhaps her example may affect me as her gaiety did to-night. I shall
-            try it. Oh! for a dreamless sleep.<date>6 October</date>, morning.—Another surprise.
+            try it. Oh! for a dreamless sleep.<date><day month="October">6 </day><Month>October</Month></date>, morning.—Another surprise.
                 <char name="mina">Mina</char> woke me early, about the same time as yesterday, and
             asked me to bring Dr. <char name="vanhelsing">Van Helsing</char>. I thought that it was
             another occasion for hypnotism, and without question went for the Professor. He had
@@ -11454,7 +11454,7 @@
         <heading>CHAPTER XXV</heading>
 
         <p>DR. SEWARD’S DIARY</p>
-        <p><date>11 October</date>, Evening.—<char name="jonathan">Jonathan Harker</char> has asked
+        <p><date><day month="October">11 </day><Month>October</Month></date>, Evening.—<char name="jonathan">Jonathan Harker</char> has asked
             me to note this, as he says he is hardly equal to the task, and he wants an exact record
             kept.</p>
 
@@ -11598,7 +11598,7 @@
 
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p><date>15 October</date>, Varna.—We left Charing Cross on the morning of the 12th, got to
+        <p><date><day month="October">15 </day><Month>October</Month></date>, Varna.—We left Charing Cross on the morning of the 12th, got to
             Paris the same night, and took the places secured for us in the Orient Express. We
             travelled night and day, arriving here at about five o’clock. Lord Godalming went to the
             Consulate to see if any <tech type="telegram"> telegram </tech> had arrived for him,
@@ -11642,7 +11642,7 @@
             country where bribery can do anything, and we are well supplied with money. We have only
             to make sure that the ship cannot come into port between sunset and sunrise without our
             being warned, and we shall be safe. Judge Moneybag will settle this case, I
-                think!<date>16 October</date>.—<char name="mina">Mina</char>’s report still the
+                think!<date><day month="October">16 </day><Month>October</Month></date>.—<char name="mina">Mina</char>’s report still the
             same: lapping waves and rushing water, darkness and favouring winds. We are evidently in
             good time, and when we hear of the <person>Czarina Catherine</person> we shall be ready.
             As she must pass <location>the Dardanelles</location> we are sure to have some
@@ -11650,7 +11650,7 @@
 
         <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
 
-        <p><date>17 October</date>.—Everything is pretty well fixed now, I think, to welcome
+        <p><date><day month="October">17 </day><Month>October</Month></date>.—Everything is pretty well fixed now, I think, to welcome
                 <person>the Count</person> on his return from his tour. Godalming told the shippers
             that he fancied that the box sent aboard might contain something stolen from a friend of
             his, and got a half consent that he might open it at his own risk. The owner gave him a
@@ -11670,7 +11670,7 @@
             I should take the chance only too thankfully if it were to come. We mean to leave no
             stone unturned to carry out our intent. We have arranged with certain officials that the
             instant the <person>Czarina Catherine</person> is seen, we are to be informed by a
-            special messenger.<date>24 October</date>.—A whole week of waiting. Daily <tech
+            special messenger.<date><day month="October">24 </day><Month>October</Month></date>.—A whole week of waiting. Daily <tech
                 type="telegram"> telegrams </tech> to Godalming, but only the same story: Not yet
             reported. <char name="mina">Mina</char>’s morning and evening hypnotic answer is
             unvaried: lapping waves, rushing water, and creaking masts.</p>
@@ -11685,7 +11685,7 @@
             <person>Czarina Catherine</person> reported this morning from Dardanelles. </p>
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>25 October</date>.—How I miss my <tech type="phonograph"> phonograph</tech>! To
+        <p><date><day month="October">25 </day><Month>October</Month></date>.—How I miss my <tech type="phonograph"> phonograph</tech>! To
             write diary with a<tech type="pen"> pen </tech>is irksome to me; but Van Helsing says I
             must. We were all wild with excitement yesterday when Godalming got his <tech
                 type="telegram"> telegram </tech> from Lloyd’s. I know now what men feel in battle
@@ -11710,7 +11710,7 @@
             rate the Czarina Catherine has come from <location>London</location>. She should
             therefore arrive some time in the morning; but as she cannot possibly get in before
             then, we are all about to retire early. We shall get up at one o’clock, so as to be
-                ready.<date>25 October</date>, Noon.—No news yet of the ship’s arrival. Mrs.
+                ready.<date><day month="October">25 </day><Month>October</Month></date>, Noon.—No news yet of the ship’s arrival. Mrs.
             Harker’s hypnotic report this morning was the same as usual, so it is possible that we
             may get news at any moment. We men are all in a fever of excitement, except Harker, who
             is calm; his hands are cold as ice, and an hour ago I found him whetting the edge of the
@@ -11730,13 +11730,13 @@
             after a refreshing sleep of some hours she woke up, she seemed brighter and better than
             she had been for days. At sunset she made the usual hypnotic report. Wherever he may be
             in the Black Sea, <person>the Count</person> is hurrying to his destination. To his
-            doom, I trust!<date>26 October</date>.—Another day and no tidings of the <person>Czarina
+            doom, I trust!<date><day month="October">26 </day><Month>October</Month></date>.—Another day and no tidings of the <person>Czarina
                 Catherine</person>. She ought to be here by now. That she is still journeying
             somewhere is apparent, for Mrs. Harker’s hypnotic report at sunrise was still the same.
             It is possible that the vessel may be lying by, at times, for fog; some of the <tech
                 type="steamer"> steamers</tech> which came in last evening reported patches of fog
             both to north and south of the port. We must continue our watching, as the ship may now
-            be signalled any moment.<date>27 October</date>, Noon.—Most strange; no news yet of the
+            be signalled any moment.<date><day month="October">27 </day><Month>October</Month></date>, Noon.—Most strange; no news yet of the
             ship we wait for. Mrs. Harker reported last night and this morning as usual: lapping
             waves and rushing water, though she added that the waves were very faint. The <tech
                 type="telegram"> telegrams </tech> from <location>London</location> have been the
@@ -11747,7 +11747,7 @@
         <p>I did not like that lethargy of Madam <char name="mina">Mina</char>’s. Souls and memories
             can do strange things during trance. I was about to ask him more, but Harker just then
             came in, and he held up a warning hand. We must try to-night at sunset to make her speak
-            more fully when in her hypnotic state.<date>28 October</date>.—Telegram. Rufus Smith,
+            more fully when in her hypnotic state.<date><day month="October">28 </day><Month>October</Month></date>.—Telegram. Rufus Smith,
                 <location>London</location>, to Lord Godalming, care H. B. M. Vice Consul,
             Varna.</p>
 
@@ -11757,7 +11757,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>28 October</date>.—When the <tech type="telegram"> telegram </tech> came announcing
+        <p><date><day month="October">28 </day><Month>October</Month></date>.—When the <tech type="telegram"> telegram </tech> came announcing
             the arrival in <location>Galatz</location> I do not think it was such a shock to any of
             us as might have been expected. True, we did not know whence, or how, or when, the bolt
             would come; but I think we all expected that something strange would happen. The delay
@@ -11972,7 +11972,7 @@
         <heading>CHAPTER XXVI</heading>
 
         <p>DR. SEWARD’S DIARY</p>
-        <p><date>29 October</date>.—This is written in the <tech type="train"> train </tech>from
+        <p><date><day month="October">29 </day><Month>October</Month></date>.—This is written in the <tech type="train"> train </tech>from
             Varna to <location>Galatz</location>. Last night we all assembled a little before the
             time of sunset. Each of us had done his work as well as he could; so far as thought, and
             endeavour, and opportunity go, we are prepared for the whole of our journey, and for our
@@ -12049,7 +12049,7 @@
             even in answer to the Professor’s imperative questioning. When she woke from the trance,
             she was cold, and exhausted, and languid; but her mind was all alert. She could not
             remember anything, but asked what she had said; when she was told, she pondered over it
-            deeply for a long time and in silence.<date>30 October</date>,<time> 7 a. m.</time>—We
+            deeply for a long time and in silence.<date><day month="October">30 </day><Month>October</Month></date>,<time> 7 a. m.</time>—We
             are near <location>Galatz</location> now, and I may not have time to write later.
             Sunrise this morning was anxiously looked for by us all. Knowing of the increasing
             difficulty of procuring the hypnotic trance, <char name="vanhelsing">Van Helsing</char>
@@ -12084,7 +12084,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>30 October</date>.—Mr. <char name="morris">Morris</char> took me to the hotel where
+        <p><date><day month="October">30 </day><Month>October</Month></date>.—Mr. <char name="morris">Morris</char> took me to the hotel where
             our rooms had been ordered by telegraph, he being the one who could best be spared,
             since he does not speak any foreign language. The forces were distributed much as they
             had been at Varna, except that Lord Godalming went to the Vice-Consul, as his rank might
@@ -12097,7 +12097,7 @@
 
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p><date>30 October</date>.—At nine o’clock Dr. <char name="vanhelsing">Van Helsing</char>,
+        <p><date><day month="October">30 </day><Month>October</Month></date>.—At nine o’clock Dr. <char name="vanhelsing">Van Helsing</char>,
             Dr. <char name="renfield">R. M. Renfield</char>, and I called on Messrs. Mackenzie &amp;
             Steinkoff, the agents of the <location>London</location> firm of Hapgood. They had
             received a <tech type="telegram">wire</tech> from <location>London</location>, in answer
@@ -12197,7 +12197,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>30 October</date>, evening.—They were so tired and worn out and dispirited that
+        <p><date><day month="October">30 </day><Month>October</Month></date>, evening.—They were so tired and worn out and dispirited that
             there was nothing to be done till they had some rest; so I asked them all to lie down
             for half an hour whilst I should enter everything up to the moment. I feel so grateful
             to the man who invented the Traveller’s <tech type="typewriter"> typewriter </tech>, and
@@ -12475,13 +12475,13 @@
             with the cold from the river seeming to rise up and strike us; with all the mysterious
             voices of the night around us, it all comes home. We seem to be drifting into unknown
             places and unknown ways; into a whole world of dark and dreadful things. Godalming is
-            shutting the furnace door....<date>31 October</date>.—Still hurrying along. The day has
+            shutting the furnace door....<date><day month="October">31 </day><Month>October</Month></date>.—Still hurrying along. The day has
             come, and Godalming is sleeping. I am on watch. The morning is bitterly cold; the
             furnace heat is grateful, though we have heavy fur coats. As yet we have passed only a
             few open boats, but none of them had on board any box or package of anything like the
             size of the one we seek. The men were scared every time we turned our <tech
                 type="electricity"> electric </tech>lamp on them, and fell on their knees and
-                prayed.<date>1 November</date>, evening.—No news all day; we have found nothing of
+                prayed.<date><day month="November">1 </day><Month>November</Month></date>, evening.—No news all day; we have found nothing of
             the kind we seek. We have now passed into the <person>Bistritza</person>; and if we are
             wrong in our surmise our chance is gone. We have over-hauled every boat, big and little.
             Early this morning, one crew took us for a Government boat, and treated us accordingly.
@@ -12497,7 +12497,7 @@
             passed there in the night. I am feeling very sleepy; the cold is perhaps beginning to
             tell upon me, and nature must have rest some time. Godalming insists that he shall keep
             the first watch. God bless him for all his goodness to poor dear <char name="mina"
-                >Mina</char> and me.<date>2 November</date>, morning.—It is broad daylight. That
+                >Mina</char> and me.<date><day month="November">2 </day><Month>November</Month></date>, morning.—It is broad daylight. That
             good fellow would not wake me. He says it would have been a sin to, for I slept
             peacefully and was forgetting my trouble. It seems brutally selfish to me to have slept
             so long, and let him watch all night; but he was quite right. I am a new man this
@@ -12521,14 +12521,14 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>2 November</date>.—Three days on the road. No news, and no time to write it if
+        <p><date><day month="November">2 </day><Month>November</Month></date>.—Three days on the road. No news, and no time to write it if
             there had been, for every moment is precious. We have had only the rest needful for the
             horses; but we are both bearing it wonderfully. Those adventurous days of ours are
             turning up useful. We must push on; we shall never feel happy till we get the launch in
             sight again.3 November.—We heard at <location>Fundu</location> that the launch had gone
             up the <person>Bistritza</person>. I wish it wasn’t so cold. There are signs of snow
             coming; and if it falls heavy it will stop us. In such case we must get a sledge and go
-            on, Russian fashion.<date>4 November</date>.—To-day we heard of the launch having been
+            on, Russian fashion.<date><day month="November">4 </day><Month>November</Month></date>.—To-day we heard of the launch having been
             detained by an accident when trying to force a way up the rapids. The Slovak boats get
             up all right, by aid of a rope and steering with knowledge. Some went up only a few
             hours before. Godalming is an amateur fitter himself, and evidently it was he who put
@@ -12540,7 +12540,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>31 October</date>.—Arrived at <location>Veresti</location> at noon. The Professor
+        <p><date><day month="October">31 </day><Month>October</Month></date>.—Arrived at <location>Veresti</location> at noon. The Professor
             tells me that this morning at dawn he could hardly hypnotise me at all, and that all I
             could say was: dark and quiet. He is off now buying a <tech type="carriage"> carriage
             </tech>and horses. He says that he will later on try to buy additional horses, so that
@@ -12571,7 +12571,7 @@
         <heading>CHAPTER XXVII</heading>
 
         <p>MINA HARKER’S JOURNAL</p>
-        <p><date>1 November</date>.—All day long we have travelled, and at a good speed. The horses
+        <p><date><day month="November">1 </day><Month>November</Month></date>.—All day long we have travelled, and at a good speed. The horses
             seem to know that they are being kindly treated, for they go willingly their full stage
             at best speed. We have now had so many changes and find the same thing so constantly
             that we are encouraged to think that the journey will be an easy one. Dr. <char
@@ -12596,15 +12596,15 @@
             old and grey, but his mouth is set as firmly as a conqueror’s; even in his sleep he is
             instinct with resolution. When we have well started I must make him rest whilst I drive.
             I shall tell him that we have days before us, and we must not break down when most of
-            all his strength will be needed.... All is ready; we are off shortly.<date>2
-                November</date>, morning.—I was successful, and we took turns driving all night; now
+            all his strength will be needed.... All is ready; we are off shortly.<date><day month="November">2</day>
+                <Month>November</Month></date>, morning.—I was successful, and we took turns driving all night; now
             the day is on us, bright though cold. There is a strange heaviness in the air—I say
             heaviness for want of a better word; I mean that it oppresses us both. It is very cold,
             and only our warm furs keep us comfortable. At dawn <char name="vanhelsing">Van
                 Helsing</char> hypnotised me; he says I answered darkness, creaking wood and roaring
             water, so the river is changing as they ascend. I do hope that my darling will not run
-            any chance of danger—more than need be; but we are in God’s hands.<date>2
-                November</date>, night.—All day long driving. The country gets wilder as we go, and
+            any chance of danger—more than need be; but we are in God’s hands.<date><day month="November">2</day>
+                <Month>November</Month></date>, night.—All day long driving. The country gets wilder as we go, and
             the great spurs of <location>the Carpathians</location>, which at
                 <location>Veresti</location> seemed so far from us and so low on the horizon, now
             seem to gather round us and tower in front. We both seem in good spirits; I think we
@@ -12625,7 +12625,7 @@
 
         <p>Memorandum by <char name="vanhelsing">Abraham Van Helsing</char>.</p>
 
-        <p><date>4 November</date>.—This to my old and true friend John <char name="renfield">R. M.
+        <p><date><day month="November">4 </day><Month>November</Month></date>.—This to my old and true friend John <char name="renfield">R. M.
                 Renfield</char>, M.D., of Purfleet, <location>London</location>, in case I may not
             see him. It may explain. It is morning, and I write by a fire which all the night I have
             kept alive—Madam <char name="mina">Mina</char> aiding me. It is cold, cold; so cold that
@@ -12708,7 +12708,7 @@
             ready. Madam still sleep, and she look in her sleep more healthy and more redder than
             before. And I like it not. And I am afraid, afraid, afraid!—I am afraid of all
             things—even to think but I must go on my way. The stake we play for is life and death,
-            or more than these, and we must not flinch.<date>5 November</date>, morning.—Let me be
+            or more than these, and we must not flinch.<date><day month="November">5 </day><Month>November</Month></date>, morning.—Let me be
             accurate in everything, for though you and I have seen some strange things together, you
             may at the first think that I, <char name="vanhelsing">Van Helsing</char>, am mad—that
             the many horrors and the so long s<tech type="train"> train </tech>on nerves has at the
@@ -12829,7 +12829,7 @@
 
         <p><char name="jonathan">Jonathan Harker</char>’s Journal.</p>
 
-        <p><date>4 November</date>, evening.—The accident to the launch has been a terrible thing
+        <p><date><day month="November">4 </day><Month>November</Month></date>, evening.—The accident to the launch has been a terrible thing
             for us. Only for it we should have overtaken the boat long ago; and by now my dear <char
                 name="mina">Mina</char> would have been free. I fear to think of her, off on the
             wolds near that horrid place. We have got horses, and we follow on the track. I note
@@ -12840,7 +12840,7 @@
 
         <p>Dr. <char name="renfield">R. M. Renfield</char>’s Diary.</p>
 
-        <p><date>5 November</date>.—With the dawn we saw the body of Szgany before us dashing away
+        <p><date><day month="November">5 </day><Month>November</Month></date>.—With the dawn we saw the body of Szgany before us dashing away
             from the river with their leiter-wagon. They surrounded it in a cluster, and hurried
             along as though beset. The snow is falling lightly and there is a strange excitement in
             the air. It may be our own feelings, but the depression is strange. Far off I hear the
@@ -12851,7 +12851,7 @@
 
         <p>Dr. <char name="vanhelsing">Van Helsing</char>’s Memorandum.</p>
 
-        <p><date>5 November</date>, afternoon.—I am at least sane. Thank God for that mercy at all
+        <p><date><day month="November">5 </day><Month>November</Month></date>, afternoon.—I am at least sane. Thank God for that mercy at all
             events, though the proving it has been dreadful. When I left Madam <char name="mina"
                 >Mina</char> sleeping within the Holy circle, I took my way to the castle. The
             blacksmith hammer which I took in the carriage from <location>Veresti</location> was
@@ -12955,7 +12955,7 @@
 
         <p><char name="mina">Mina Harker</char>’s Journal.</p>
 
-        <p><date>6 November</date>.—It was late in the afternoon when the Professor and I took our
+        <p><date><day month="November">6 </day><Month>November</Month></date>.—It was late in the afternoon when the Professor and I took our
             way towards the east whence I knew <char name="jonathan">Jonathan</char> was coming. We
             did not go fast, though the way was steeply downhill, for we had to take heavy rugs and
             wraps with us; we dared not face the possibility of being left without warmth in the
