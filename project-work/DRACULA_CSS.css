@@ -4,7 +4,7 @@ h2 {
     text-align: center;
 }
 table, th , td {
-    border: 1px #000000;
+    border: 1px black;
 }
 
 span {
