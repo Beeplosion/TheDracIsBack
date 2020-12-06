@@ -1,0 +1,17 @@
+h2 {
+    color: #55d6aa;
+    background-color:#222;
+    text-align: center;
+}
+table, th , td {
+    border: 1px black;
+}
+
+span {
+    color: red;
+    text-decoration: underline;
+}
+a {
+color:#55d6aa;
+    background-color: #222
+}
