@@ -1,23 +1,39 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = root
 root = element root {title,chapter+}
+#the dracula document started with the elements title and chapter so i used them in the relaxNG
 title = element title {text}
+#The title element was only used  once and it only contained text.
 p = element p{mixed{(date | time | q | location | person | cloth | info | tech | people | char)*}}
+#the emement p is for paragraphs
+#throught the entire document diffrent element tags were used to record person, places, or things, and because there 
+#was so many things to make and the locations of these marks werent up to use =, we used the mix tag to define all of the elements
+
+#char defines main chareters
+#people was used in the very bebinging before we had a clear grasp on how we were handling draculal.
 char = element char {name?, text}
+#not all char tags have a name attribute in them.
 name = attribute name {text}
 people = element people {text}
 tech = element tech {type?, text}
+#tech was used to define the techology that was used in dracula.
 type = attribute type {text}
 info = element info{text}
+#info was used to highligh pars of dracula that i wanted to be able to find if i wanted to do quote. i found them interesting.
+#this was before we when into our groups. It stayed because the group used my doc to start.
 cloth = element cloth{text}
+#cloth was used to highligh some charecters outfits.
 person = element person{text}
 location = element location{where?, mixed{(person | char)*}}
 where = attribute where {text}
 chapter = element chapter{heading, p+}
 heading = element heading {text}
 q = element q{text}
+#q was already in the doc when we  recived it,but i wouldhave been a pain to remove the tags so we just left them in the doc.
 time = element time{text}
 date = element date{mixed{(day | Month)*}}
 day = element day{month, text}
 month = attribute month {text}
 Month = element Month {text}
+#time, date, day, month, and Month where used to document the dates and time in the dracula doc.
+#month has a lowercase m becuase it was an attribute while the element month was a capital M.
