@@ -110,18 +110,28 @@ nav a:hover::before {
 }
 
 table, th , td , tr {
-    border: 3px white;
+    border-bottom: 0px 
 }
-
+tr:hover {background-color:#454545 }
 span {
-    color: cadetblue;
+    color: #55d6aa;
     text-decoration: underline;
 }
 
 h2 {
-    color: cadetblue;
+    color: #55d6aa;
     text-decoration: underline;
 }
 a {
-    color:55d6aa
+    color:#55d6aa
+}
+
+a:visited {
+    color: white
+}
+a:link {
+    text-decoration: none;
+}
+h3 {
+    color: #222
 }
