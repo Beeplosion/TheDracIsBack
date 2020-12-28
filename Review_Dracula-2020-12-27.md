@@ -39,7 +39,7 @@ Opening the file in <oXygen/> I can see something of the damage. The novel ended
 
 Here is a simple view of the structural problem. Your HTML file for text.html has this structure:
 
-```xml
+```
 <html>
    <head>
        <title>Navigation></title>
@@ -60,8 +60,9 @@ Here is a simple view of the structural problem. Your HTML file for text.html ha
             
   </body><!--ONE body element closes, but the other does not. -->
   </html>
-text continues after this point, followed by some randome <p> elements, that end in a broken <p> with a half sentence. 
+  text continues after this point, followed by some randome <p> elements, that end in a broken <p> with a half sentence. 
 ```
+
 And here is what an HTML file should look like: *one* head and *one* body:
 
 ```xml
