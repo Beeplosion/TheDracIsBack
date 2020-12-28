@@ -11,7 +11,7 @@ This team built upon the markup we prepared for a class assignment with up-conve
 
 ```
 Find: \s(ship.+?)\s
-Replace: <tech>\s</tech>
+Replace: <tech>\1</tech>
 ```
 
 I am impressed with the string matching work the team accomplished to convert the *Dracula* text into a source of structured document data. That made the team's work ideal for learning how to apply XPath and XSLT, and experimenting with the these technologies. Sam's investigation (and crash course from me) in network analysis in Finals Week was all thanks to the team's good efforts with the XML markup, because that made it possible not just to highlight people, places, and tech in a readng view, but also to explore which characters are most frequently associated with which technologies in the same paragraphs. (You could do similar work to see which characters turn up most frequently in the same paragraphs with specific locations, just as you could simply list out the locations in each chapter.
