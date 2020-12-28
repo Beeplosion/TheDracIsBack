@@ -39,7 +39,7 @@ Opening the file in <oXygen/> I can see something of the damage. The novel ended
 
 Here is a simple view of the structural problem. Your HTML file for text.html has this structure:
 
-```
+```xml
 <html>
    <head>
        <title>Navigation></title>
@@ -61,11 +61,10 @@ Here is a simple view of the structural problem. Your HTML file for text.html ha
   </body><!--ONE body element closes, but the other does not. -->
   </html>
 text continues after this point, followed by some randome <p> elements, that end in a broken <p> with a half sentence. 
-
 ```
 And here is what an HTML file should look like: *one* head and *one* body:
 
-```
+```xml
 <html>
         <head><!--This is the second of the two head elements and references the exact same CSS -->
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -80,7 +79,6 @@ And here is what an HTML file should look like: *one* head and *one* body:
        
        </body>
 </html>
-   
 ```
 
 The current *Dracula* novel HTML page is really not a good representation for the team. It is sad to see an HTML file so very broken, especially when the XML that you did was of so much better quality. 
