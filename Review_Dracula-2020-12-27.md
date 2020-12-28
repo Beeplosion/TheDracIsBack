@@ -58,7 +58,7 @@ Here is a simple view of the structural problem. Your HTML file for text.html ha
    
             <!--The ending of the novel repeats Ch. 25, 26, and 27 in your version. -->
             
-  </body><!--ONE body element closes, but the other does not. -->
+  </body><!--ONE body element closes, but the other does not, so the structure of this file is not well-formed. -->
   </html>
   text continues after this point, followed by some randome <p> elements, that end in a broken <p> with a half sentence. 
 ```
