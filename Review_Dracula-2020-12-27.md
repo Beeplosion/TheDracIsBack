@@ -31,7 +31,7 @@ There are several problems:
 
 ```
 Oh, my friend John, but it was butcher work; had I not been nerved by thoughts of other dead, and of the living over whom hung such a pall of fear, I could not have gone on. I tremble and tremble even yet, though till all was over, God be thanked, my nerve did stand. Had I not seen the repose in the first place, and the gladness that stole over it just ere the final dissolution ca
-``
+```
 
 Opening the file in <oXygen/> I can see something of the damage. The novel ended much earlier, but there is some duplicate material appearing at least twice. The novel ends and the HTML file closes, but the extra text seems to have been grafted on after that.
 
