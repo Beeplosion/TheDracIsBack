@@ -39,7 +39,7 @@ Opening the file in <oXygen/> I can see something of the damage. The novel ended
 
 Here is a simple view of the structural problem. Your HTML file for text.html has this structure:
 
-```
+```xml
 <html>
    <head>
        <title>Navigation></title>
